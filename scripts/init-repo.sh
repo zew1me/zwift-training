@@ -14,6 +14,7 @@ Options:
   -l, --link-name NAME   Symlink name under the user id dir (default: custom)
   --import               Copy existing .zwo files into workouts/imported
   --backup               Backup the Zwift user folder before changes
+  --list-users           List numeric user id folders under the Zwift directory and exit
   --install-tools        Install prek, shellcheck, shfmt via Homebrew and install hooks
   -h, --help             Show this help text
 USAGE
@@ -65,6 +66,7 @@ link_name="custom"
 import_existing=false
 backup_flag=false
 install_flag=false
+list_users=false
 
 while [[ $# -gt 0 ]]; do
   case "$1" in
@@ -86,6 +88,10 @@ while [[ $# -gt 0 ]]; do
       ;;
     --backup)
       backup_flag=true
+      shift
+      ;;
+    --list-users)
+      list_users=true
       shift
       ;;
     --install-tools)
@@ -111,6 +117,21 @@ fi
 
 if [[ ! -d "$zwift_dir" ]]; then
   die "Zwift Workouts directory not found: $zwift_dir"
+fi
+
+if [[ "$list_users" == true ]]; then
+  mapfile -t candidates < <(
+    for path in "$zwift_dir"/*; do
+      [[ -d "$path" ]] || continue
+      basename "${path}"
+    done | awk '/^[0-9]+$/'
+  )
+  if [[ ${#candidates[@]} -eq 0 ]]; then
+    echo "No numeric user id folders found under: $zwift_dir"
+    exit 0
+  fi
+  printf '%s\n' "${candidates[@]}"
+  exit 0
 fi
 
 if [[ -z "$user_id" ]]; then
