@@ -2,17 +2,18 @@
 set -euo pipefail
 
 usage() {
-  cat <<'USAGE'
+  cat << 'USAGE'
 Usage: scripts/init-repo.sh [options]
 
 Creates a symlink from your Zwift workouts folder to this repo's workouts/
 folder. Optionally installs tooling (prek, shellcheck, shfmt) via Homebrew.
 
 Options:
-  -u, --user-id ID       Zwift user id folder (numeric)
+  -u, --user-id ID       Zwift user id folder (numeric). If omitted, auto-detects.
   -z, --zwift-dir PATH   Zwift Workouts directory (default: ~/Documents/Zwift/Workouts)
   -l, --link-name NAME   Symlink name under the user id dir (default: custom)
   --import               Copy existing .zwo files into workouts/imported
+  --backup               Backup the Zwift user folder before changes
   --install-tools        Install prek, shellcheck, shfmt via Homebrew and install hooks
   -h, --help             Show this help text
 USAGE
@@ -29,22 +30,31 @@ repo_root() {
   cd "$script_dir/.." && pwd
 }
 
+expand_path() {
+  local input="$1"
+  if [[ "$input" == "~"* ]]; then
+    echo "${input/#\~/$HOME}"
+  else
+    echo "$input"
+  fi
+}
+
 install_tools() {
-  if ! command -v brew >/dev/null 2>&1; then
+  if ! command -v brew > /dev/null 2>&1; then
     die "Homebrew not found. Install it first: https://brew.sh/"
   fi
 
-  if ! brew list j178/tap/prek >/dev/null 2>&1; then
+  if ! brew list j178/tap/prek > /dev/null 2>&1; then
     brew install j178/tap/prek
   fi
-  if ! brew list shellcheck >/dev/null 2>&1; then
+  if ! brew list shellcheck > /dev/null 2>&1; then
     brew install shellcheck
   fi
-  if ! brew list shfmt >/dev/null 2>&1; then
+  if ! brew list shfmt > /dev/null 2>&1; then
     brew install shfmt
   fi
 
-  if command -v prek >/dev/null 2>&1; then
+  if command -v prek > /dev/null 2>&1; then
     prek install
   fi
 }
@@ -53,19 +63,20 @@ user_id=""
 zwift_dir="$HOME/Documents/Zwift/Workouts"
 link_name="custom"
 import_existing=false
+backup_flag=false
 install_flag=false
 
 while [[ $# -gt 0 ]]; do
   case "$1" in
-    -u|--user-id)
+    -u | --user-id)
       user_id="$2"
       shift 2
       ;;
-    -z|--zwift-dir)
+    -z | --zwift-dir)
       zwift_dir="$2"
       shift 2
       ;;
-    -l|--link-name)
+    -l | --link-name)
       link_name="$2"
       shift 2
       ;;
@@ -73,11 +84,15 @@ while [[ $# -gt 0 ]]; do
       import_existing=true
       shift
       ;;
+    --backup)
+      backup_flag=true
+      shift
+      ;;
     --install-tools)
       install_flag=true
       shift
       ;;
-    -h|--help)
+    -h | --help)
       usage
       exit 0
       ;;
@@ -87,6 +102,8 @@ while [[ $# -gt 0 ]]; do
   esac
 
 done
+
+zwift_dir="$(expand_path "$zwift_dir")"
 
 if [[ "$install_flag" == true ]]; then
   install_tools
@@ -129,11 +146,23 @@ if [[ ! -d "$zwift_user_dir" ]]; then
   die "Zwift user directory not found: $zwift_user_dir"
 fi
 
+if [[ "$backup_flag" == true ]]; then
+  if ! command -v rsync > /dev/null 2>&1; then
+    die "rsync not found; cannot perform backup"
+  fi
+  backup_root="$repo_root_path/backups"
+  ts="$(date +\"%Y%m%d%H%M%S\")"
+  backup_dir="$backup_root/${user_id}-${ts}"
+  mkdir -p "$backup_root"
+  rsync -a "$zwift_user_dir/" "$backup_dir/"
+  echo "Backed up Zwift user folder to: $backup_dir"
+fi
+
 if [[ "$import_existing" == true ]]; then
   import_dir="$repo_workouts/imported"
   mkdir -p "$import_dir"
-  find "$zwift_user_dir" -maxdepth 1 -type f -name '*.zwo' -print0 \
-    | xargs -0 -I {} cp -n "{}" "$import_dir/"
+  find "$zwift_user_dir" -maxdepth 1 -type f -name '*.zwo' -print0 |
+    xargs -0 -I {} cp -n "{}" "$import_dir/"
 fi
 
 link_path="$zwift_user_dir/$link_name"
