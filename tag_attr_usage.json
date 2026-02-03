@@ -1,0 +1,3355 @@
+{
+  "elements": [
+    {
+      "tag": "Cooldown",
+      "paths": [
+        [
+          "workout_file",
+          "workout"
+        ]
+      ],
+      "attributes": [
+        "Cadence",
+        "CadenceHigh",
+        "CadenceLow",
+        "CadenceResting",
+        "Duration",
+        "EndAtRoadTime",
+        "Pace",
+        "Power",
+        "PowerHigh",
+        "PowerLow",
+        "Zone",
+        "pace",
+        "replacement_prescription",
+        "replacement_verb",
+        "units"
+      ],
+      "value": null
+    },
+    {
+      "tag": "FreeRide",
+      "paths": [
+        [
+          "workout_file",
+          "workout"
+        ]
+      ],
+      "attributes": [
+        "Cadence",
+        "CadenceHigh",
+        "CadenceLow",
+        "Duration",
+        "FailThresholdDuration",
+        "FlatRoad",
+        "Power",
+        "ftptest",
+        "ramptest",
+        "show_avg"
+      ],
+      "value": null
+    },
+    {
+      "tag": "Freeride",
+      "paths": [
+        [
+          "workout_file",
+          "workout"
+        ]
+      ],
+      "attributes": [
+        "Duration",
+        "FlatRoad",
+        "ftptest"
+      ],
+      "value": null
+    },
+    {
+      "tag": "IntervalsT",
+      "paths": [
+        [
+          "workout_file",
+          "workout"
+        ]
+      ],
+      "attributes": [
+        "Cadence",
+        "CadenceHigh",
+        "CadenceLow",
+        "CadenceResting",
+        "FlatRoad",
+        "OffDuration",
+        "OffPower",
+        "OnDuration",
+        "OnPower",
+        "OverUnder",
+        "PowerOffHigh",
+        "PowerOffLow",
+        "PowerOffZone",
+        "PowerOnHigh",
+        "PowerOnLow",
+        "PowerOnZone",
+        "Repeat",
+        "pace",
+        "units"
+      ],
+      "value": null
+    },
+    {
+      "tag": "MaxEffort",
+      "paths": [
+        [
+          "workout_file",
+          "workout"
+        ]
+      ],
+      "attributes": [
+        "Duration"
+      ],
+      "value": null
+    },
+    {
+      "tag": "Ramp",
+      "paths": [
+        [
+          "workout_file",
+          "workout"
+        ]
+      ],
+      "attributes": [
+        "Cadence",
+        "CadenceResting",
+        "Duration",
+        "Power",
+        "PowerHigh",
+        "PowerLow",
+        "pace",
+        "show_avg"
+      ],
+      "value": null
+    },
+    {
+      "tag": "RestDay",
+      "paths": [
+        [
+          "workout_file",
+          "workout"
+        ]
+      ],
+      "attributes": [],
+      "value": null
+    },
+    {
+      "tag": "ShowCP20",
+      "paths": [
+        [
+          "workout_file"
+        ]
+      ],
+      "attributes": [],
+      "value": {
+        "datatype": "integer",
+        "value_samples": {
+          "exhaustive": true,
+          "values": [
+            [
+              "1",
+              1.0
+            ]
+          ],
+          "total_occurrences": 5
+        }
+      }
+    },
+    {
+      "tag": "Skippable",
+      "paths": [
+        [
+          "workout_file"
+        ]
+      ],
+      "attributes": [],
+      "value": {
+        "datatype": "integer",
+        "value_samples": {
+          "exhaustive": true,
+          "values": [
+            [
+              "0",
+              1.0
+            ]
+          ],
+          "total_occurrences": 4
+        }
+      }
+    },
+    {
+      "tag": "SolidState",
+      "paths": [
+        [
+          "workout_file",
+          "workout"
+        ]
+      ],
+      "attributes": [
+        "Duration",
+        "Power"
+      ],
+      "value": null
+    },
+    {
+      "tag": "SteadyState",
+      "paths": [
+        [
+          "workout_file",
+          "workout"
+        ]
+      ],
+      "attributes": [
+        "Cadence",
+        "CadenceHigh",
+        "CadenceLow",
+        "CadenceResting",
+        "Duration",
+        "FailThresholdDuration",
+        "Forced_Performance_Test",
+        "NeverFails",
+        "OffPower",
+        "Power",
+        "PowerHigh",
+        "PowerLow",
+        "Target",
+        "Text",
+        "Zone",
+        "forced_performance_test",
+        "pace",
+        "ramptest",
+        "replacement_prescription",
+        "replacement_verb",
+        "show_avg",
+        "units"
+      ],
+      "value": null
+    },
+    {
+      "tag": "TextEvent",
+      "paths": [
+        [
+          "workout_file",
+          "workout",
+          "Cooldown"
+        ],
+        [
+          "workout_file",
+          "workout",
+          "FreeRide"
+        ],
+        [
+          "workout_file",
+          "workout",
+          "IntervalsT"
+        ],
+        [
+          "workout_file",
+          "workout",
+          "SteadyState"
+        ],
+        [
+          "workout_file",
+          "workout",
+          "Warmup"
+        ]
+      ],
+      "attributes": [
+        "Duration",
+        "TimeOffset",
+        "message",
+        "timeoffset"
+      ],
+      "value": null
+    },
+    {
+      "tag": "TextNotification",
+      "paths": [
+        [
+          "workout_file",
+          "workout",
+          "Cooldown"
+        ],
+        [
+          "workout_file",
+          "workout",
+          "IntervalsT"
+        ]
+      ],
+      "attributes": [
+        "duration",
+        "font_size",
+        "text",
+        "timeOffset",
+        "x",
+        "y"
+      ],
+      "value": null
+    },
+    {
+      "tag": "Tutorial",
+      "paths": [
+        [
+          "workout_file"
+        ]
+      ],
+      "attributes": [],
+      "value": {
+        "datatype": "integer",
+        "value_samples": {
+          "exhaustive": true,
+          "values": [
+            [
+              "1",
+              1.0
+            ]
+          ],
+          "total_occurrences": 1
+        }
+      }
+    },
+    {
+      "tag": "Warmup",
+      "paths": [
+        [
+          "workout_file",
+          "workout"
+        ]
+      ],
+      "attributes": [
+        "Cadence",
+        "CadenceHigh",
+        "CadenceLow",
+        "CadenceResting",
+        "Duration",
+        "Power",
+        "PowerHigh",
+        "PowerLow",
+        "Quantize",
+        "Text",
+        "Zone",
+        "pace",
+        "replacement_prescription",
+        "replacement_verb",
+        "units"
+      ],
+      "value": null
+    },
+    {
+      "tag": "WorkoutPlan",
+      "paths": [
+        [
+          "workout_file"
+        ]
+      ],
+      "attributes": [],
+      "value": {
+        "datatype": "integer",
+        "value_samples": {
+          "exhaustive": true,
+          "values": [
+            [
+              "1",
+              1.0
+            ]
+          ],
+          "total_occurrences": 756
+        }
+      }
+    },
+    {
+      "tag": "activitySaveName",
+      "paths": [
+        [
+          "workout_file"
+        ]
+      ],
+      "attributes": [],
+      "value": {
+        "datatype": "string",
+        "value_samples": {
+          "exhaustive": false,
+          "values": [
+            [
+              "Duurtraining - KNWU Fondo Wintertraining",
+              0.25
+            ],
+            [
+              "Tempo-duurtraining - KNWU Fondo Wintertraining",
+              0.07142857142857142
+            ],
+            [
+              "Bloktraining - KNWU Fondo Wintertraining",
+              0.0625
+            ],
+            [
+              "Explosiviteitstraining - KNWU Fondo Wintertraining",
+              0.044642857142857144
+            ],
+            [
+              "Cadanstraining - KNWU Fondo Wintertraining",
+              0.03571428571428571
+            ],
+            [
+              "VO\u2082Max-training - KNWU Fondo Wintertraining",
+              0.026785714285714284
+            ],
+            [
+              "Krachttraining - KNWU Fondo Wintertraining",
+              0.026785714285714284
+            ],
+            [
+              "Sprinttraining - KNWU Fondo Wintertraining",
+              0.017857142857142856
+            ],
+            [
+              "Zwift Academy Run: Workout 2 | Intervals and Threshold Training",
+              0.008928571428571428
+            ],
+            [
+              "Zwift Academy Run: Workout 6 | Endurance Speed Builds",
+              0.008928571428571428
+            ]
+          ],
+          "total_occurrences": 112
+        }
+      }
+    },
+    {
+      "tag": "author",
+      "paths": [
+        [
+          "workout_file"
+        ]
+      ],
+      "attributes": [],
+      "value": {
+        "datatype": "string",
+        "value_samples": {
+          "exhaustive": false,
+          "values": [
+            [
+              "Zwift",
+              0.3566753926701571
+            ],
+            [
+              "Kevin Poulton",
+              0.21858638743455497
+            ],
+            [
+              "Zwift by Greg McMillan",
+              0.05235602094240838
+            ],
+            [
+              "Marco Pinotti",
+              0.03992146596858639
+            ],
+            [
+              "KNWU Fondo",
+              0.03926701570680628
+            ],
+            [
+              "QT2",
+              0.03926701570680628
+            ],
+            [
+              "Shayne Gaffney | GC Coaching",
+              0.031413612565445025
+            ],
+            [
+              "trainSharp",
+              0.026832460732984294
+            ],
+            [
+              "Zwift Academy Coaches",
+              0.02225130890052356
+            ],
+            [
+              "GCN",
+              0.021596858638743454
+            ]
+          ],
+          "total_occurrences": 1528
+        }
+      }
+    },
+    {
+      "tag": "authorIcon",
+      "paths": [
+        [
+          "workout_file"
+        ]
+      ],
+      "attributes": [],
+      "value": {
+        "datatype": "string",
+        "value_samples": {
+          "exhaustive": true,
+          "values": [
+            [
+              "UI/WhiteOrangeTheme/Workout_Select/brands/Peaks_Logo.tga",
+              0.3986784140969163
+            ],
+            [
+              "UI/WhiteOrangeTheme/Workout_Select/brands/MarcoPinotti_Logo.tga",
+              0.20044052863436124
+            ],
+            [
+              "UI/WhiteOrangeTheme/Workout_Select/brands/trainSharp_Logo.tga",
+              0.15198237885462554
+            ],
+            [
+              "UI/WhiteOrangeTheme/Workout_Select/brands/QT2Systems_Logo.tga",
+              0.13215859030837004
+            ],
+            [
+              "UI/WhiteOrangeTheme/Workout_Select/brands/GCN_Logo.tga",
+              0.07268722466960352
+            ],
+            [
+              "UI/WhiteOrangeTheme/Workout_Select/brands/HSBC_Logo.tga",
+              0.04185022026431718
+            ],
+            [
+              "UI/WhiteOrangeTheme/Workout_Select/brands/Powerhouse_Logo.tga",
+              0.0022026431718061676
+            ]
+          ],
+          "total_occurrences": 454
+        }
+      }
+    },
+    {
+      "tag": "author_alias",
+      "paths": [
+        [
+          "workout_file"
+        ]
+      ],
+      "attributes": [],
+      "value": {
+        "datatype": "string",
+        "value_samples": {
+          "exhaustive": true,
+          "values": [
+            [
+              "FTP",
+              1.0
+            ]
+          ],
+          "total_occurrences": 6
+        }
+      }
+    },
+    {
+      "tag": "category",
+      "paths": [
+        [
+          "workout_file"
+        ]
+      ],
+      "attributes": [],
+      "value": {
+        "datatype": "string",
+        "value_samples": {
+          "exhaustive": false,
+          "values": [],
+          "total_occurrences": 1766
+        }
+      }
+    },
+    {
+      "tag": "categoryIndex",
+      "paths": [
+        [
+          "workout_file"
+        ]
+      ],
+      "attributes": [],
+      "value": {
+        "datatype": "string",
+        "value_samples": {
+          "exhaustive": false,
+          "values": [
+            [
+              "2",
+              0.20233463035019456
+            ],
+            [
+              "1",
+              0.1893644617380026
+            ],
+            [
+              "4",
+              0.16731517509727625
+            ],
+            [
+              "3",
+              0.1569390402075227
+            ],
+            [
+              "5",
+              0.1297016861219196
+            ],
+            [
+              "6",
+              0.0648508430609598
+            ],
+            [
+              "7",
+              0.029831387808041506
+            ],
+            [
+              "8",
+              0.010376134889753566
+            ],
+            [
+              "9",
+              0.00648508430609598
+            ],
+            [
+              "12",
+              0.005188067444876783
+            ]
+          ],
+          "total_occurrences": 771
+        }
+      }
+    },
+    {
+      "tag": "description",
+      "paths": [
+        [
+          "workout_file"
+        ]
+      ],
+      "attributes": [],
+      "value": {
+        "datatype": "string",
+        "value_samples": {
+          "exhaustive": false,
+          "values": [],
+          "total_occurrences": 1759
+        }
+      }
+    },
+    {
+      "tag": "durationType",
+      "paths": [
+        [
+          "workout_file"
+        ]
+      ],
+      "attributes": [],
+      "value": {
+        "datatype": "string",
+        "value_samples": {
+          "exhaustive": true,
+          "values": [
+            [
+              "time",
+              1.0
+            ]
+          ],
+          "total_occurrences": 48
+        }
+      }
+    },
+    {
+      "tag": "entid",
+      "paths": [
+        [
+          "workout_file"
+        ]
+      ],
+      "attributes": [],
+      "value": {
+        "datatype": "integer",
+        "value_samples": {
+          "exhaustive": true,
+          "values": [
+            [
+              "487",
+              0.43795620437956206
+            ],
+            [
+              "491",
+              0.35036496350364965
+            ],
+            [
+              "436",
+              0.1386861313868613
+            ],
+            [
+              "150",
+              0.072992700729927
+            ]
+          ],
+          "total_occurrences": 137
+        }
+      }
+    },
+    {
+      "tag": "ftpFemaleOverride",
+      "paths": [
+        [
+          "workout_file"
+        ]
+      ],
+      "attributes": [],
+      "value": {
+        "datatype": "integer",
+        "value_samples": {
+          "exhaustive": true,
+          "values": [
+            [
+              "130",
+              1.0
+            ]
+          ],
+          "total_occurrences": 1
+        }
+      }
+    },
+    {
+      "tag": "ftpMaleOverride",
+      "paths": [
+        [
+          "workout_file"
+        ]
+      ],
+      "attributes": [],
+      "value": {
+        "datatype": "integer",
+        "value_samples": {
+          "exhaustive": true,
+          "values": [
+            [
+              "200",
+              1.0
+            ]
+          ],
+          "total_occurrences": 1
+        }
+      }
+    },
+    {
+      "tag": "ftpOverride",
+      "paths": [
+        [
+          "workout_file"
+        ]
+      ],
+      "attributes": [],
+      "value": {
+        "datatype": "integer",
+        "value_samples": {
+          "exhaustive": true,
+          "values": [
+            [
+              "100",
+              0.75
+            ],
+            [
+              "200",
+              0.25
+            ]
+          ],
+          "total_occurrences": 4
+        }
+      }
+    },
+    {
+      "tag": "gameplayevent",
+      "paths": [
+        [
+          "workout_file",
+          "workout",
+          "Cooldown"
+        ]
+      ],
+      "attributes": [
+        "camera",
+        "duration",
+        "timeoffset",
+        "type"
+      ],
+      "value": null
+    },
+    {
+      "tag": "name",
+      "paths": [
+        [
+          "workout_file"
+        ]
+      ],
+      "attributes": [],
+      "value": {
+        "datatype": "string",
+        "value_samples": {
+          "exhaustive": false,
+          "values": [],
+          "total_occurrences": 1766
+        }
+      }
+    },
+    {
+      "tag": "nameImperial",
+      "paths": [
+        [
+          "workout_file"
+        ]
+      ],
+      "attributes": [],
+      "value": {
+        "datatype": "string",
+        "value_samples": {
+          "exhaustive": false,
+          "values": [
+            [
+              "8mi Easy Run #1",
+              0.08771929824561403
+            ],
+            [
+              "8mi Easy Run #2",
+              0.08771929824561403
+            ],
+            [
+              "Fartlek - 400m/200m",
+              0.07894736842105263
+            ],
+            [
+              "8mi Easy Run #3",
+              0.06140350877192982
+            ],
+            [
+              "5mi Easy Run #1",
+              0.06140350877192982
+            ]
+          ],
+          "total_occurrences": 114
+        }
+      }
+    },
+    {
+      "tag": "nameMetric",
+      "paths": [
+        [
+          "workout_file"
+        ]
+      ],
+      "attributes": [],
+      "value": {
+        "datatype": "string",
+        "value_samples": {
+          "exhaustive": false,
+          "values": [
+            [
+              "13km Easy Run #1",
+              0.08771929824561403
+            ],
+            [
+              "13km Easy Run #2",
+              0.08771929824561403
+            ],
+            [
+              "Fartlek - 400m/200m",
+              0.07894736842105263
+            ],
+            [
+              "13km Easy Run #3",
+              0.06140350877192982
+            ],
+            [
+              "8km Easy Run #1",
+              0.06140350877192982
+            ]
+          ],
+          "total_occurrences": 114
+        }
+      }
+    },
+    {
+      "tag": "overrideHash",
+      "paths": [
+        [
+          "workout_file"
+        ]
+      ],
+      "attributes": [],
+      "value": {
+        "datatype": "integer",
+        "value_samples": {
+          "exhaustive": false,
+          "values": [],
+          "total_occurrences": 58
+        }
+      }
+    },
+    {
+      "tag": "painIndex",
+      "paths": [
+        [
+          "workout_file"
+        ]
+      ],
+      "attributes": [],
+      "value": {
+        "datatype": "integer",
+        "value_samples": {
+          "exhaustive": true,
+          "values": [
+            [
+              "1",
+              0.6521739130434783
+            ],
+            [
+              "3",
+              0.17391304347826086
+            ],
+            [
+              "5",
+              0.08695652173913043
+            ],
+            [
+              "4",
+              0.08695652173913043
+            ]
+          ],
+          "total_occurrences": 23
+        }
+      }
+    },
+    {
+      "tag": "setFtpAtPercentage",
+      "paths": [
+        [
+          "workout_file"
+        ]
+      ],
+      "attributes": [],
+      "value": {
+        "datatype": "real",
+        "value_samples": {
+          "exhaustive": true,
+          "values": [
+            [
+              "0.75",
+              0.6666666666666666
+            ],
+            [
+              "0.65",
+              0.3333333333333333
+            ]
+          ],
+          "total_occurrences": 3
+        }
+      }
+    },
+    {
+      "tag": "sportType",
+      "paths": [
+        [
+          "workout_file"
+        ]
+      ],
+      "attributes": [],
+      "value": {
+        "datatype": "string",
+        "value_samples": {
+          "exhaustive": true,
+          "values": [
+            [
+              "bike",
+              0.6129247168554297
+            ],
+            [
+              "run",
+              0.37241838774150565
+            ],
+            [
+              "swim",
+              0.010659560293137908
+            ],
+            [
+              "ride",
+              0.0033311125916055963
+            ],
+            [
+              "Bike",
+              0.0006662225183211193
+            ]
+          ],
+          "total_occurrences": 1501
+        }
+      }
+    },
+    {
+      "tag": "subcategory",
+      "paths": [
+        [
+          "workout_file"
+        ]
+      ],
+      "attributes": [],
+      "value": {
+        "datatype": "string",
+        "value_samples": {
+          "exhaustive": false,
+          "values": [
+            [
+              "Week 4",
+              0.09951956074124914
+            ],
+            [
+              "Week 3",
+              0.09883321894303362
+            ],
+            [
+              "Week 2",
+              0.09746053534660261
+            ],
+            [
+              "Week 1",
+              0.09608785175017158
+            ],
+            [
+              "Week 5",
+              0.08236101578586136
+            ],
+            [
+              "Week 6",
+              0.0789293067947838
+            ],
+            [
+              "Week 7",
+              0.06177076183939602
+            ],
+            [
+              "Week 8",
+              0.05833905284831846
+            ]
+          ],
+          "total_occurrences": 1457
+        }
+      }
+    },
+    {
+      "tag": "tag",
+      "paths": [
+        [
+          "workout_file",
+          "tags"
+        ]
+      ],
+      "attributes": [
+        "name"
+      ],
+      "value": null
+    },
+    {
+      "tag": "tags",
+      "paths": [
+        [
+          "workout_file"
+        ]
+      ],
+      "attributes": [],
+      "value": null
+    },
+    {
+      "tag": "test_details",
+      "paths": [
+        [
+          "workout_file"
+        ]
+      ],
+      "attributes": [
+        "name",
+        "paceid",
+        "tracking_text_paceid",
+        "tracking_text_post",
+        "tracking_text_pre"
+      ],
+      "value": null
+    },
+    {
+      "tag": "textevent",
+      "paths": [
+        [
+          "workout_file",
+          "workout"
+        ],
+        [
+          "workout_file",
+          "workout",
+          "Cooldown"
+        ],
+        [
+          "workout_file",
+          "workout",
+          "FreeRide"
+        ],
+        [
+          "workout_file",
+          "workout",
+          "Freeride"
+        ],
+        [
+          "workout_file",
+          "workout",
+          "IntervalsT"
+        ],
+        [
+          "workout_file",
+          "workout",
+          "Ramp"
+        ],
+        [
+          "workout_file",
+          "workout",
+          "SolidState"
+        ],
+        [
+          "workout_file",
+          "workout",
+          "SteadyState"
+        ],
+        [
+          "workout_file",
+          "workout",
+          "Warmup"
+        ]
+      ],
+      "attributes": [
+        "distoffset",
+        "duration",
+        "message",
+        "mssage",
+        "textscale",
+        "timeoffset",
+        "y"
+      ],
+      "value": null
+    },
+    {
+      "tag": "visibleAfterTime",
+      "paths": [
+        [
+          "workout_file"
+        ]
+      ],
+      "attributes": [],
+      "value": {
+        "datatype": "integer",
+        "value_samples": {
+          "exhaustive": false,
+          "values": [
+            [
+              "1533538860",
+              0.09803921568627451
+            ],
+            [
+              "1603929600",
+              0.09803921568627451
+            ],
+            [
+              "1573459200",
+              0.09803921568627451
+            ],
+            [
+              "1602720000",
+              0.0784313725490196
+            ],
+            [
+              "1504222780",
+              0.0784313725490196
+            ],
+            [
+              "1601510400",
+              0.0784313725490196
+            ],
+            [
+              "1564963200",
+              0.0784313725490196
+            ],
+            [
+              "1555632060",
+              0.06862745098039216
+            ],
+            [
+              "1560470400",
+              0.06862745098039216
+            ],
+            [
+              "1553472000",
+              0.06862745098039216
+            ]
+          ],
+          "total_occurrences": 102
+        }
+      }
+    },
+    {
+      "tag": "visibleOutsidePlan",
+      "paths": [
+        [
+          "workout_file"
+        ]
+      ],
+      "attributes": [],
+      "value": {
+        "datatype": "integer",
+        "value_samples": {
+          "exhaustive": true,
+          "values": [
+            [
+              "0",
+              1.0
+            ]
+          ],
+          "total_occurrences": 728
+        }
+      }
+    },
+    {
+      "tag": "workout",
+      "paths": [
+        [
+          "workout_file"
+        ]
+      ],
+      "attributes": [],
+      "value": null
+    },
+    {
+      "tag": "workoutLength",
+      "paths": [
+        [
+          "workout_file"
+        ]
+      ],
+      "attributes": [],
+      "value": {
+        "datatype": "integer",
+        "value_samples": {
+          "exhaustive": true,
+          "values": [
+            [
+              "1800",
+              0.47058823529411764
+            ],
+            [
+              "1900",
+              0.14705882352941177
+            ],
+            [
+              "600",
+              0.11764705882352941
+            ],
+            [
+              "2500",
+              0.058823529411764705
+            ],
+            [
+              "1200",
+              0.058823529411764705
+            ],
+            [
+              "2100",
+              0.029411764705882353
+            ],
+            [
+              "2700",
+              0.029411764705882353
+            ],
+            [
+              "2200",
+              0.029411764705882353
+            ],
+            [
+              "3000",
+              0.029411764705882353
+            ],
+            [
+              "3600",
+              0.029411764705882353
+            ]
+          ],
+          "total_occurrences": 34
+        }
+      }
+    },
+    {
+      "tag": "workout_file",
+      "paths": [
+        []
+      ],
+      "attributes": [],
+      "value": null
+    }
+  ],
+  "attributes": [
+    {
+      "attribute": "Cadence",
+      "tags": [
+        "Cooldown",
+        "FreeRide",
+        "IntervalsT",
+        "Ramp",
+        "SteadyState",
+        "Warmup"
+      ],
+      "value": {
+        "datatype": "integer",
+        "value_samples": {
+          "exhaustive": false,
+          "values": [
+            [
+              "85",
+              0.29236216489630756
+            ],
+            [
+              "90",
+              0.1537683358624178
+            ],
+            [
+              "100",
+              0.10141628730399595
+            ],
+            [
+              "95",
+              0.09332321699544764
+            ],
+            [
+              "110",
+              0.08573596358118361
+            ],
+            [
+              "105",
+              0.05285786545270612
+            ],
+            [
+              "65",
+              0.04425897824987354
+            ],
+            [
+              "80",
+              0.0409711684370258
+            ],
+            [
+              "75",
+              0.039200809307030855
+            ],
+            [
+              "70",
+              0.029843196762771876
+            ]
+          ],
+          "total_occurrences": 3954
+        }
+      }
+    },
+    {
+      "attribute": "CadenceHigh",
+      "tags": [
+        "Cooldown",
+        "FreeRide",
+        "IntervalsT",
+        "SteadyState",
+        "Warmup"
+      ],
+      "value": {
+        "datatype": "integer",
+        "value_samples": {
+          "exhaustive": true,
+          "values": [
+            [
+              "100",
+              0.7516339869281046
+            ],
+            [
+              "105",
+              0.16339869281045752
+            ],
+            [
+              "75",
+              0.032679738562091505
+            ],
+            [
+              "95",
+              0.0196078431372549
+            ],
+            [
+              "115",
+              0.0196078431372549
+            ],
+            [
+              "140",
+              0.006535947712418301
+            ],
+            [
+              "130",
+              0.006535947712418301
+            ]
+          ],
+          "total_occurrences": 153
+        }
+      }
+    },
+    {
+      "attribute": "CadenceLow",
+      "tags": [
+        "Cooldown",
+        "FreeRide",
+        "IntervalsT",
+        "SteadyState",
+        "Warmup"
+      ],
+      "value": {
+        "datatype": "integer",
+        "value_samples": {
+          "exhaustive": true,
+          "values": [
+            [
+              "70",
+              0.43790849673202614
+            ],
+            [
+              "80",
+              0.3333333333333333
+            ],
+            [
+              "85",
+              0.1437908496732026
+            ],
+            [
+              "60",
+              0.032679738562091505
+            ],
+            [
+              "100",
+              0.026143790849673203
+            ],
+            [
+              "90",
+              0.0196078431372549
+            ],
+            [
+              "110",
+              0.006535947712418301
+            ]
+          ],
+          "total_occurrences": 153
+        }
+      }
+    },
+    {
+      "attribute": "CadenceResting",
+      "tags": [
+        "Cooldown",
+        "IntervalsT",
+        "Ramp",
+        "SteadyState",
+        "Warmup"
+      ],
+      "value": {
+        "datatype": "integer",
+        "value_samples": {
+          "exhaustive": false,
+          "values": [
+            [
+              "85",
+              0.3559556786703601
+            ],
+            [
+              "80",
+              0.16204986149584488
+            ],
+            [
+              "90",
+              0.16066481994459833
+            ],
+            [
+              "75",
+              0.11357340720221606
+            ],
+            [
+              "65",
+              0.0443213296398892
+            ],
+            [
+              "100",
+              0.04155124653739612
+            ],
+            [
+              "95",
+              0.04155124653739612
+            ],
+            [
+              "70",
+              0.030470914127423823
+            ],
+            [
+              "60",
+              0.018005540166204988
+            ],
+            [
+              "105",
+              0.0110803324099723
+            ]
+          ],
+          "total_occurrences": 722
+        }
+      }
+    },
+    {
+      "attribute": "Duration",
+      "tags": [
+        "Cooldown",
+        "FreeRide",
+        "Freeride",
+        "MaxEffort",
+        "Ramp",
+        "SolidState",
+        "SteadyState",
+        "TextEvent",
+        "Warmup"
+      ],
+      "value": {
+        "datatype": "real",
+        "value_samples": {
+          "exhaustive": false,
+          "values": [
+            [
+              "60",
+              0.15833096792506388
+            ],
+            [
+              "300",
+              0.11751348282713596
+            ],
+            [
+              "180",
+              0.10627306273062731
+            ],
+            [
+              "120",
+              0.10621629293216009
+            ],
+            [
+              "30",
+              0.06290093670167471
+            ],
+            [
+              "600",
+              0.05160374680669884
+            ],
+            [
+              "240",
+              0.03599205222821459
+            ],
+            [
+              "400",
+              0.03474311666193585
+            ],
+            [
+              "800",
+              0.02662503548112404
+            ],
+            [
+              "20",
+              0.022367300596082884
+            ]
+          ],
+          "total_occurrences": 17615
+        }
+      }
+    },
+    {
+      "attribute": "EndAtRoadTime",
+      "tags": [
+        "Cooldown"
+      ],
+      "value": {
+        "datatype": "real",
+        "value_samples": {
+          "exhaustive": true,
+          "values": [
+            [
+              "0.5296",
+              1.0
+            ]
+          ],
+          "total_occurrences": 1
+        }
+      }
+    },
+    {
+      "attribute": "FailThresholdDuration",
+      "tags": [
+        "FreeRide",
+        "SteadyState"
+      ],
+      "value": {
+        "datatype": "integer",
+        "value_samples": {
+          "exhaustive": true,
+          "values": [
+            [
+              "15",
+              0.9253731343283582
+            ],
+            [
+              "10",
+              0.07462686567164178
+            ]
+          ],
+          "total_occurrences": 67
+        }
+      }
+    },
+    {
+      "attribute": "FlatRoad",
+      "tags": [
+        "FreeRide",
+        "Freeride",
+        "IntervalsT"
+      ],
+      "value": {
+        "datatype": "integer",
+        "value_samples": {
+          "exhaustive": true,
+          "values": [
+            [
+              "1",
+              0.5820433436532507
+            ],
+            [
+              "0",
+              0.4148606811145511
+            ],
+            [
+              "255",
+              0.0030959752321981426
+            ]
+          ],
+          "total_occurrences": 323
+        }
+      }
+    },
+    {
+      "attribute": "Forced_Performance_Test",
+      "tags": [
+        "SteadyState"
+      ],
+      "value": {
+        "datatype": "integer",
+        "value_samples": {
+          "exhaustive": true,
+          "values": [
+            [
+              "1",
+              1.0
+            ]
+          ],
+          "total_occurrences": 1
+        }
+      }
+    },
+    {
+      "attribute": "NeverFails",
+      "tags": [
+        "SteadyState"
+      ],
+      "value": {
+        "datatype": "integer",
+        "value_samples": {
+          "exhaustive": true,
+          "values": [
+            [
+              "1",
+              1.0
+            ]
+          ],
+          "total_occurrences": 155
+        }
+      }
+    },
+    {
+      "attribute": "OffDuration",
+      "tags": [
+        "IntervalsT"
+      ],
+      "value": {
+        "datatype": "real",
+        "value_samples": {
+          "exhaustive": false,
+          "values": [
+            [
+              "60",
+              0.24896265560165975
+            ],
+            [
+              "30",
+              0.18494368701837582
+            ],
+            [
+              "120",
+              0.08535862477771192
+            ],
+            [
+              "180",
+              0.058091286307053944
+            ],
+            [
+              "300",
+              0.051570835803200946
+            ],
+            [
+              "50",
+              0.04860699466508595
+            ],
+            [
+              "400",
+              0.03615886188500297
+            ],
+            [
+              "20",
+              0.032009484291641965
+            ],
+            [
+              "45",
+              0.02963841138114997
+            ],
+            [
+              "40",
+              0.026674570243034972
+            ]
+          ],
+          "total_occurrences": 1687
+        }
+      }
+    },
+    {
+      "attribute": "OffPower",
+      "tags": [
+        "IntervalsT",
+        "SteadyState"
+      ],
+      "value": {
+        "datatype": "string",
+        "value_samples": {
+          "exhaustive": false,
+          "values": [
+            [
+              "0.5",
+              0.15593434343434343
+            ],
+            [
+              "0.55",
+              0.1275252525252525
+            ],
+            [
+              "0.50449997",
+              0.07449494949494949
+            ],
+            [
+              "0.65",
+              0.05303030303030303
+            ],
+            [
+              "0.7",
+              0.041666666666666664
+            ],
+            [
+              "0.75",
+              0.039141414141414144
+            ],
+            [
+              "0.9",
+              0.028409090909090908
+            ],
+            [
+              "0.85",
+              0.023989898989898988
+            ],
+            [
+              ".5",
+              0.01893939393939394
+            ],
+            [
+              "0.50450003",
+              0.018308080808080808
+            ]
+          ],
+          "total_occurrences": 1584
+        }
+      }
+    },
+    {
+      "attribute": "OnDuration",
+      "tags": [
+        "IntervalsT"
+      ],
+      "value": {
+        "datatype": "real",
+        "value_samples": {
+          "exhaustive": false,
+          "values": [
+            [
+              "60",
+              0.21991701244813278
+            ],
+            [
+              "30",
+              0.1991701244813278
+            ],
+            [
+              "120",
+              0.07468879668049792
+            ],
+            [
+              "10",
+              0.07468879668049792
+            ],
+            [
+              "15",
+              0.05690574985180794
+            ],
+            [
+              "300",
+              0.05038529934795495
+            ],
+            [
+              "180",
+              0.04564315352697095
+            ],
+            [
+              "20",
+              0.04267931238885596
+            ],
+            [
+              "800",
+              0.02963841138114997
+            ],
+            [
+              "40",
+              0.026081802015411975
+            ]
+          ],
+          "total_occurrences": 1687
+        }
+      }
+    },
+    {
+      "attribute": "OnPower",
+      "tags": [
+        "IntervalsT"
+      ],
+      "value": {
+        "datatype": "string",
+        "value_samples": {
+          "exhaustive": false,
+          "values": [
+            [
+              "1.05",
+              0.05436156763590392
+            ],
+            [
+              "1.2",
+              0.05120101137800253
+            ]
+          ],
+          "total_occurrences": 1582
+        }
+      }
+    },
+    {
+      "attribute": "OverUnder",
+      "tags": [
+        "IntervalsT"
+      ],
+      "value": {
+        "datatype": "integer",
+        "value_samples": {
+          "exhaustive": true,
+          "values": [
+            [
+              "1",
+              1.0
+            ]
+          ],
+          "total_occurrences": 115
+        }
+      }
+    },
+    {
+      "attribute": "Pace",
+      "tags": [
+        "Cooldown"
+      ],
+      "value": {
+        "datatype": "integer",
+        "value_samples": {
+          "exhaustive": true,
+          "values": [
+            [
+              "0",
+              1.0
+            ]
+          ],
+          "total_occurrences": 1
+        }
+      }
+    },
+    {
+      "attribute": "Power",
+      "tags": [
+        "Cooldown",
+        "FreeRide",
+        "Ramp",
+        "SolidState",
+        "SteadyState",
+        "Warmup"
+      ],
+      "value": {
+        "datatype": "string",
+        "value_samples": {
+          "exhaustive": false,
+          "values": [
+            [
+              "0.5",
+              0.10407274394437228
+            ],
+            [
+              "0.50449997",
+              0.05157790173454573
+            ],
+            [
+              "0.55",
+              0.04783372812714908
+            ],
+            [
+              "0.85",
+              0.037594559486513336
+            ],
+            [
+              "0.9",
+              0.036066325361045315
+            ],
+            [
+              "0.55000001",
+              0.03155803469091465
+            ],
+            [
+              "0.8",
+              0.031405211278367845
+            ],
+            [
+              "0.65",
+              0.03010621227172003
+            ],
+            [
+              "1.1",
+              0.028577978146252007
+            ],
+            [
+              "0.75",
+              0.026973332314510583
+            ]
+          ],
+          "total_occurrences": 13087
+        }
+      }
+    },
+    {
+      "attribute": "PowerHigh",
+      "tags": [
+        "Cooldown",
+        "Ramp",
+        "SteadyState",
+        "Warmup"
+      ],
+      "value": {
+        "datatype": "string",
+        "value_samples": {
+          "exhaustive": false,
+          "values": [
+            [
+              "0.65",
+              0.09971656789487246
+            ],
+            [
+              "0.75",
+              0.08966761144035043
+            ],
+            [
+              "0.9",
+              0.051017778922958
+            ]
+          ],
+          "total_occurrences": 3881
+        }
+      }
+    },
+    {
+      "attribute": "PowerLow",
+      "tags": [
+        "Cooldown",
+        "Ramp",
+        "SteadyState",
+        "Warmup"
+      ],
+      "value": {
+        "datatype": "string",
+        "value_samples": {
+          "exhaustive": false,
+          "values": [
+            [
+              "0.75",
+              0.08790925496261923
+            ],
+            [
+              "0.5",
+              0.07244135086362465
+            ],
+            [
+              "0.7",
+              0.06393400360917763
+            ]
+          ],
+          "total_occurrences": 3879
+        }
+      }
+    },
+    {
+      "attribute": "PowerOffHigh",
+      "tags": [
+        "IntervalsT"
+      ],
+      "value": {
+        "datatype": "real",
+        "value_samples": {
+          "exhaustive": false,
+          "values": [
+            [
+              "1.0",
+              0.18681318681318682
+            ],
+            [
+              "0.50450003",
+              0.16483516483516483
+            ],
+            [
+              "0.5",
+              0.14285714285714285
+            ],
+            [
+              "0.75",
+              0.14285714285714285
+            ],
+            [
+              "0.97",
+              0.06593406593406594
+            ],
+            [
+              "0.87",
+              0.054945054945054944
+            ],
+            [
+              "0.90449995",
+              0.054945054945054944
+            ],
+            [
+              "0.7",
+              0.04395604395604396
+            ],
+            [
+              "0.65449995",
+              0.03296703296703297
+            ],
+            [
+              "0.61000001",
+              0.02197802197802198
+            ]
+          ],
+          "total_occurrences": 91
+        }
+      }
+    },
+    {
+      "attribute": "PowerOffLow",
+      "tags": [
+        "IntervalsT"
+      ],
+      "value": {
+        "datatype": "string",
+        "value_samples": {
+          "exhaustive": false,
+          "values": [
+            [
+              "0.98",
+              0.18681318681318682
+            ],
+            [
+              "0.5",
+              0.16483516483516483
+            ],
+            [
+              "0.50450003",
+              0.16483516483516483
+            ],
+            [
+              "0.7",
+              0.14285714285714285
+            ],
+            [
+              "0.93",
+              0.06593406593406594
+            ],
+            [
+              "0.84",
+              0.054945054945054944
+            ],
+            [
+              "0.90449995",
+              0.054945054945054944
+            ],
+            [
+              ".55",
+              0.04395604395604396
+            ],
+            [
+              "0.65449995",
+              0.03296703296703297
+            ],
+            [
+              "0.61000001",
+              0.02197802197802198
+            ]
+          ],
+          "total_occurrences": 91
+        }
+      }
+    },
+    {
+      "attribute": "PowerOffZone",
+      "tags": [
+        "IntervalsT"
+      ],
+      "value": {
+        "datatype": "integer",
+        "value_samples": {
+          "exhaustive": true,
+          "values": [
+            [
+              "3",
+              0.2857142857142857
+            ],
+            [
+              "2",
+              0.2857142857142857
+            ],
+            [
+              "1",
+              0.2857142857142857
+            ],
+            [
+              "4",
+              0.14285714285714285
+            ]
+          ],
+          "total_occurrences": 14
+        }
+      }
+    },
+    {
+      "attribute": "PowerOnHigh",
+      "tags": [
+        "IntervalsT"
+      ],
+      "value": {
+        "datatype": "real",
+        "value_samples": {
+          "exhaustive": false,
+          "values": [
+            [
+              "0.95",
+              0.15384615384615385
+            ],
+            [
+              "1.1",
+              0.15384615384615385
+            ],
+            [
+              "2.0044999",
+              0.08791208791208792
+            ],
+            [
+              "1.07",
+              0.08791208791208792
+            ],
+            [
+              "1.2045",
+              0.06593406593406594
+            ],
+            [
+              "0.96",
+              0.054945054945054944
+            ],
+            [
+              "0.65449995",
+              0.054945054945054944
+            ],
+            [
+              "1.75",
+              0.04395604395604396
+            ],
+            [
+              "1.25",
+              0.03296703296703297
+            ],
+            [
+              "1.5",
+              0.03296703296703297
+            ]
+          ],
+          "total_occurrences": 91
+        }
+      }
+    },
+    {
+      "attribute": "PowerOnLow",
+      "tags": [
+        "IntervalsT"
+      ],
+      "value": {
+        "datatype": "real",
+        "value_samples": {
+          "exhaustive": false,
+          "values": [
+            [
+              "1.07",
+              0.14285714285714285
+            ],
+            [
+              "0.75",
+              0.14285714285714285
+            ],
+            [
+              "2.0044999",
+              0.08791208791208792
+            ],
+            [
+              "1.5",
+              0.07692307692307693
+            ],
+            [
+              "1.2045",
+              0.06593406593406594
+            ],
+            [
+              "1.04",
+              0.06593406593406594
+            ],
+            [
+              "0.94",
+              0.054945054945054944
+            ],
+            [
+              "0.65449995",
+              0.054945054945054944
+            ],
+            [
+              "1.25",
+              0.03296703296703297
+            ],
+            [
+              "1.05",
+              0.03296703296703297
+            ]
+          ],
+          "total_occurrences": 91
+        }
+      }
+    },
+    {
+      "attribute": "PowerOnZone",
+      "tags": [
+        "IntervalsT"
+      ],
+      "value": {
+        "datatype": "integer",
+        "value_samples": {
+          "exhaustive": true,
+          "values": [
+            [
+              "5",
+              0.5
+            ],
+            [
+              "4",
+              0.14285714285714285
+            ],
+            [
+              "3",
+              0.14285714285714285
+            ],
+            [
+              "6",
+              0.14285714285714285
+            ],
+            [
+              "2",
+              0.07142857142857142
+            ]
+          ],
+          "total_occurrences": 14
+        }
+      }
+    },
+    {
+      "attribute": "Quantize",
+      "tags": [
+        "Warmup"
+      ],
+      "value": {
+        "datatype": "integer",
+        "value_samples": {
+          "exhaustive": true,
+          "values": [
+            [
+              "20",
+              1.0
+            ]
+          ],
+          "total_occurrences": 8
+        }
+      }
+    },
+    {
+      "attribute": "Repeat",
+      "tags": [
+        "IntervalsT"
+      ],
+      "value": {
+        "datatype": "integer",
+        "value_samples": {
+          "exhaustive": false,
+          "values": [
+            [
+              "1",
+              0.2151748666271488
+            ],
+            [
+              "4",
+              0.17605216360403084
+            ],
+            [
+              "2",
+              0.15352697095435686
+            ],
+            [
+              "3",
+              0.13633669235328985
+            ],
+            [
+              "5",
+              0.10966212211025489
+            ],
+            [
+              "6",
+              0.07053941908713693
+            ],
+            [
+              "10",
+              0.04742145820983995
+            ],
+            [
+              "8",
+              0.03734439834024896
+            ],
+            [
+              "20",
+              0.01956135151155898
+            ],
+            [
+              "7",
+              0.014226437462951986
+            ]
+          ],
+          "total_occurrences": 1687
+        }
+      }
+    },
+    {
+      "attribute": "Target",
+      "tags": [
+        "SteadyState"
+      ],
+      "value": {
+        "datatype": "real",
+        "value_samples": {
+          "exhaustive": true,
+          "values": [
+            [
+              "0.5",
+              0.3793103448275862
+            ],
+            [
+              "1.0",
+              0.3103448275862069
+            ],
+            [
+              "0.65",
+              0.10344827586206896
+            ],
+            [
+              "1.1",
+              0.10344827586206896
+            ],
+            [
+              "0.6",
+              0.10344827586206896
+            ]
+          ],
+          "total_occurrences": 29
+        }
+      }
+    },
+    {
+      "attribute": "Text",
+      "tags": [
+        "SteadyState",
+        "Warmup"
+      ],
+      "value": {
+        "datatype": "string",
+        "value_samples": {
+          "exhaustive": true,
+          "values": [
+            [
+              "text",
+              1.0
+            ]
+          ],
+          "total_occurrences": 31
+        }
+      }
+    },
+    {
+      "attribute": "TimeOffset",
+      "tags": [
+        "TextEvent"
+      ],
+      "value": {
+        "datatype": "integer",
+        "value_samples": {
+          "exhaustive": true,
+          "values": [
+            [
+              "0",
+              0.2
+            ],
+            [
+              "60",
+              0.2
+            ],
+            [
+              "120",
+              0.2
+            ],
+            [
+              "180",
+              0.2
+            ],
+            [
+              "240",
+              0.2
+            ]
+          ],
+          "total_occurrences": 5
+        }
+      }
+    },
+    {
+      "attribute": "Zone",
+      "tags": [
+        "Cooldown",
+        "SteadyState",
+        "Warmup"
+      ],
+      "value": {
+        "datatype": "integer",
+        "value_samples": {
+          "exhaustive": true,
+          "values": [
+            [
+              "2",
+              0.56353591160221
+            ],
+            [
+              "1",
+              0.2430939226519337
+            ],
+            [
+              "3",
+              0.17679558011049723
+            ],
+            [
+              "6",
+              0.011049723756906077
+            ],
+            [
+              "4",
+              0.0055248618784530384
+            ]
+          ],
+          "total_occurrences": 181
+        }
+      }
+    },
+    {
+      "attribute": "camera",
+      "tags": [
+        "gameplayevent"
+      ],
+      "value": {
+        "datatype": "integer",
+        "value_samples": {
+          "exhaustive": true,
+          "values": [
+            [
+              "1",
+              0.5
+            ],
+            [
+              "7",
+              0.3333333333333333
+            ],
+            [
+              "4",
+              0.16666666666666666
+            ]
+          ],
+          "total_occurrences": 6
+        }
+      }
+    },
+    {
+      "attribute": "distoffset",
+      "tags": [
+        "textevent"
+      ],
+      "value": {
+        "datatype": "string",
+        "value_samples": {
+          "exhaustive": false,
+          "values": [
+            [
+              "0",
+              0.1619143143716865
+            ],
+            [
+              "400",
+              0.06247313368677461
+            ],
+            [
+              "200",
+              0.054592348473993406
+            ],
+            [
+              "800",
+              0.051583321392749674
+            ],
+            [
+              "100",
+              0.04929072933084969
+            ],
+            [
+              "50",
+              0.04012036108324975
+            ],
+            [
+              "1600",
+              0.03983378707551225
+            ],
+            [
+              "300",
+              0.029087261785356068
+            ],
+            [
+              "1200",
+              0.026364808711849836
+            ],
+            [
+              "2400",
+              0.026078234704112337
+            ]
+          ],
+          "total_occurrences": 6979
+        }
+      }
+    },
+    {
+      "attribute": "duration",
+      "tags": [
+        "TextNotification",
+        "gameplayevent",
+        "textevent"
+      ],
+      "value": {
+        "datatype": "integer",
+        "value_samples": {
+          "exhaustive": true,
+          "values": [
+            [
+              "10",
+              0.4863013698630137
+            ],
+            [
+              "20",
+              0.3082191780821918
+            ],
+            [
+              "1000",
+              0.0684931506849315
+            ],
+            [
+              "30",
+              0.0684931506849315
+            ],
+            [
+              "19",
+              0.0547945205479452
+            ],
+            [
+              "5",
+              0.00684931506849315
+            ],
+            [
+              "60",
+              0.00684931506849315
+            ]
+          ],
+          "total_occurrences": 146
+        }
+      }
+    },
+    {
+      "attribute": "font_size",
+      "tags": [
+        "TextNotification"
+      ],
+      "value": {
+        "datatype": "real",
+        "value_samples": {
+          "exhaustive": true,
+          "values": [
+            [
+              "0.5",
+              1.0
+            ]
+          ],
+          "total_occurrences": 11
+        }
+      }
+    },
+    {
+      "attribute": "forced_performance_test",
+      "tags": [
+        "SteadyState"
+      ],
+      "value": {
+        "datatype": "integer",
+        "value_samples": {
+          "exhaustive": true,
+          "values": [
+            [
+              "1",
+              1.0
+            ]
+          ],
+          "total_occurrences": 16
+        }
+      }
+    },
+    {
+      "attribute": "ftptest",
+      "tags": [
+        "FreeRide",
+        "Freeride"
+      ],
+      "value": {
+        "datatype": "integer",
+        "value_samples": {
+          "exhaustive": true,
+          "values": [
+            [
+              "1",
+              1.0
+            ]
+          ],
+          "total_occurrences": 11
+        }
+      }
+    },
+    {
+      "attribute": "message",
+      "tags": [
+        "TextEvent",
+        "textevent"
+      ],
+      "value": {
+        "datatype": "string",
+        "value_samples": {
+          "exhaustive": false,
+          "values": [],
+          "total_occurrences": 44668
+        }
+      }
+    },
+    {
+      "attribute": "mssage",
+      "tags": [
+        "textevent"
+      ],
+      "value": {
+        "datatype": "string",
+        "value_samples": {
+          "exhaustive": true,
+          "values": [
+            [
+              "As always though, a great workout starts off with a good warm up - It's time to Level Up. Are you ready?",
+              1.0
+            ]
+          ],
+          "total_occurrences": 1
+        }
+      }
+    },
+    {
+      "attribute": "name",
+      "tags": [
+        "tag",
+        "test_details"
+      ],
+      "value": {
+        "datatype": "string",
+        "value_samples": {
+          "exhaustive": false,
+          "values": [
+            [
+              "INTERVALS",
+              0.3217391304347826
+            ],
+            [
+              "4weekftp",
+              0.12173913043478261
+            ],
+            [
+              "Zwift Academy",
+              0.09855072463768116
+            ],
+            [
+              "PRL",
+              0.07536231884057971
+            ],
+            [
+              "fondo",
+              0.03768115942028986
+            ],
+            [
+              "Prenatal",
+              0.034782608695652174
+            ],
+            [
+              "FTP",
+              0.03188405797101449
+            ],
+            [
+              "ZA TRI",
+              0.028985507246376812
+            ],
+            [
+              "ZATRI2019",
+              0.028985507246376812
+            ],
+            [
+              "Endurance",
+              0.02608695652173913
+            ]
+          ],
+          "total_occurrences": 345
+        }
+      }
+    },
+    {
+      "attribute": "pace",
+      "tags": [
+        "Cooldown",
+        "IntervalsT",
+        "Ramp",
+        "SteadyState",
+        "Warmup"
+      ],
+      "value": {
+        "datatype": "string",
+        "value_samples": {
+          "exhaustive": false,
+          "values": [
+            [
+              "0",
+              0.43390206686086835
+            ],
+            [
+              "2",
+              0.22263836870578443
+            ],
+            [
+              "1",
+              0.10750450825357193
+            ],
+            [
+              "3",
+              0.08156471077819392
+            ],
+            [
+              "8268",
+              0.05049244000554862
+            ],
+            [
+              "-256",
+              0.02455264253017062
+            ],
+            [
+              "",
+              0.021362186156193647
+            ],
+            [
+              "1481003871",
+              0.02122347066167291
+            ],
+            [
+              "-1307163960",
+              0.018033014287695937
+            ],
+            [
+              "189",
+              0.012623110001387154
+            ]
+          ],
+          "total_occurrences": 7209
+        }
+      }
+    },
+    {
+      "attribute": "paceid",
+      "tags": [
+        "test_details"
+      ],
+      "value": {
+        "datatype": "integer",
+        "value_samples": {
+          "exhaustive": true,
+          "values": [
+            [
+              "1",
+              0.6
+            ],
+            [
+              "2",
+              0.4
+            ]
+          ],
+          "total_occurrences": 5
+        }
+      }
+    },
+    {
+      "attribute": "ramptest",
+      "tags": [
+        "FreeRide",
+        "SteadyState"
+      ],
+      "value": {
+        "datatype": "integer",
+        "value_samples": {
+          "exhaustive": true,
+          "values": [
+            [
+              "1",
+              1.0
+            ]
+          ],
+          "total_occurrences": 67
+        }
+      }
+    },
+    {
+      "attribute": "replacement_prescription",
+      "tags": [
+        "Cooldown",
+        "SteadyState",
+        "Warmup"
+      ],
+      "value": {
+        "datatype": "string",
+        "value_samples": {
+          "exhaustive": true,
+          "values": [
+            [
+              "WALK",
+              0.33695652173913043
+            ],
+            [
+              "GO!",
+              0.20108695652173914
+            ],
+            [
+              "JOG",
+              0.15217391304347827
+            ],
+            [
+              "WARMUP",
+              0.11413043478260869
+            ],
+            [
+              "RUN",
+              0.08695652173913043
+            ],
+            [
+              "COOLDOWN",
+              0.07065217391304347
+            ],
+            [
+              "EASY PACE",
+              0.016304347826086956
+            ],
+            [
+              "Cool Down",
+              0.010869565217391304
+            ],
+            [
+              "MED PACE",
+              0.005434782608695652
+            ],
+            [
+              "FAST PACE",
+              0.005434782608695652
+            ]
+          ],
+          "total_occurrences": 184
+        }
+      }
+    },
+    {
+      "attribute": "replacement_verb",
+      "tags": [
+        "Cooldown",
+        "SteadyState",
+        "Warmup"
+      ],
+      "value": {
+        "datatype": "string",
+        "value_samples": {
+          "exhaustive": false,
+          "values": [
+            [
+              "",
+              0.6098901098901099
+            ],
+            [
+              "FULL GAS",
+              0.2032967032967033
+            ],
+            [
+              "7.5/10",
+              0.054945054945054944
+            ],
+            [
+              "6/10",
+              0.02197802197802198
+            ],
+            [
+              "7/10",
+              0.02197802197802198
+            ],
+            [
+              "8/10",
+              0.02197802197802198
+            ],
+            [
+              "9/10",
+              0.02197802197802198
+            ],
+            [
+              "Relaxed",
+              0.01098901098901099
+            ],
+            [
+              "5/10",
+              0.01098901098901099
+            ],
+            [
+              "WALK",
+              0.01098901098901099
+            ]
+          ],
+          "total_occurrences": 182
+        }
+      }
+    },
+    {
+      "attribute": "show_avg",
+      "tags": [
+        "FreeRide",
+        "Ramp",
+        "SteadyState"
+      ],
+      "value": {
+        "datatype": "integer",
+        "value_samples": {
+          "exhaustive": true,
+          "values": [
+            [
+              "1",
+              1.0
+            ]
+          ],
+          "total_occurrences": 113
+        }
+      }
+    },
+    {
+      "attribute": "text",
+      "tags": [
+        "TextNotification"
+      ],
+      "value": {
+        "datatype": "string",
+        "value_samples": {
+          "exhaustive": true,
+          "values": [
+            [
+              "60 RPM CADENCE",
+              0.36363636363636365
+            ],
+            [
+              "100 RPM CADENCE",
+              0.36363636363636365
+            ],
+            [
+              "Cool off! 110 cadence!",
+              0.18181818181818182
+            ],
+            [
+              "Cool off!",
+              0.09090909090909091
+            ]
+          ],
+          "total_occurrences": 11
+        }
+      }
+    },
+    {
+      "attribute": "textscale",
+      "tags": [
+        "textevent"
+      ],
+      "value": {
+        "datatype": "real",
+        "value_samples": {
+          "exhaustive": true,
+          "values": [
+            [
+              "0.5",
+              1.0
+            ]
+          ],
+          "total_occurrences": 38
+        }
+      }
+    },
+    {
+      "attribute": "timeOffset",
+      "tags": [
+        "TextNotification"
+      ],
+      "value": {
+        "datatype": "integer",
+        "value_samples": {
+          "exhaustive": true,
+          "values": [
+            [
+              "0",
+              0.36363636363636365
+            ],
+            [
+              "180",
+              0.09090909090909091
+            ],
+            [
+              "360",
+              0.09090909090909091
+            ],
+            [
+              "540",
+              0.09090909090909091
+            ],
+            [
+              "720",
+              0.09090909090909091
+            ],
+            [
+              "900",
+              0.09090909090909091
+            ],
+            [
+              "1080",
+              0.09090909090909091
+            ],
+            [
+              "1260",
+              0.09090909090909091
+            ]
+          ],
+          "total_occurrences": 11
+        }
+      }
+    },
+    {
+      "attribute": "timeoffset",
+      "tags": [
+        "TextEvent",
+        "gameplayevent",
+        "textevent"
+      ],
+      "value": {
+        "datatype": "string",
+        "value_samples": {
+          "exhaustive": false,
+          "values": [
+            [
+              "0",
+              0.15445707607309817
+            ],
+            [
+              "10",
+              0.06087972800679983
+            ],
+            [
+              "30",
+              0.05527518062048449
+            ],
+            [
+              "60",
+              0.05264555886102847
+            ],
+            [
+              "20",
+              0.038461538461538464
+            ],
+            [
+              "120",
+              0.03251168720781981
+            ],
+            [
+              "90",
+              0.028872715682107947
+            ],
+            [
+              "50",
+              0.02730556736081598
+            ],
+            [
+              "40",
+              0.02340097747556311
+            ],
+            [
+              "100",
+              0.02196663833404165
+            ]
+          ],
+          "total_occurrences": 37648
+        }
+      }
+    },
+    {
+      "attribute": "tracking_text_paceid",
+      "tags": [
+        "test_details"
+      ],
+      "value": {
+        "datatype": "integer",
+        "value_samples": {
+          "exhaustive": true,
+          "values": [
+            [
+              "3",
+              1.0
+            ]
+          ],
+          "total_occurrences": 5
+        }
+      }
+    },
+    {
+      "attribute": "tracking_text_post",
+      "tags": [
+        "test_details"
+      ],
+      "value": {
+        "datatype": "string",
+        "value_samples": {
+          "exhaustive": true,
+          "values": [
+            [
+              " half-marathon!",
+              1.0
+            ]
+          ],
+          "total_occurrences": 5
+        }
+      }
+    },
+    {
+      "attribute": "tracking_text_pre",
+      "tags": [
+        "test_details"
+      ],
+      "value": {
+        "datatype": "string",
+        "value_samples": {
+          "exhaustive": true,
+          "values": [
+            [
+              "You're on track to run a ",
+              1.0
+            ]
+          ],
+          "total_occurrences": 5
+        }
+      }
+    },
+    {
+      "attribute": "type",
+      "tags": [
+        "gameplayevent"
+      ],
+      "value": {
+        "datatype": "string",
+        "value_samples": {
+          "exhaustive": true,
+          "values": [
+            [
+              "GPE_CAMERA",
+              0.6
+            ],
+            [
+              "GPE_CELEBRATION",
+              0.4
+            ]
+          ],
+          "total_occurrences": 10
+        }
+      }
+    },
+    {
+      "attribute": "units",
+      "tags": [
+        "Cooldown",
+        "IntervalsT",
+        "SteadyState",
+        "Warmup"
+      ],
+      "value": {
+        "datatype": "integer",
+        "value_samples": {
+          "exhaustive": true,
+          "values": [
+            [
+              "1",
+              0.980544747081712
+            ],
+            [
+              "0",
+              0.019455252918287938
+            ]
+          ],
+          "total_occurrences": 257
+        }
+      }
+    },
+    {
+      "attribute": "x",
+      "tags": [
+        "TextNotification"
+      ],
+      "value": {
+        "datatype": "integer",
+        "value_samples": {
+          "exhaustive": true,
+          "values": [
+            [
+              "400",
+              1.0
+            ]
+          ],
+          "total_occurrences": 11
+        }
+      }
+    },
+    {
+      "attribute": "y",
+      "tags": [
+        "TextNotification",
+        "textevent"
+      ],
+      "value": {
+        "datatype": "integer",
+        "value_samples": {
+          "exhaustive": true,
+          "values": [
+            [
+              "270",
+              0.46153846153846156
+            ],
+            [
+              "240",
+              0.36752136752136755
+            ],
+            [
+              "290",
+              0.10683760683760683
+            ],
+            [
+              "500",
+              0.04700854700854701
+            ],
+            [
+              "300",
+              0.008547008547008548
+            ],
+            [
+              "220",
+              0.004273504273504274
+            ],
+            [
+              "260",
+              0.004273504273504274
+            ]
+          ],
+          "total_occurrences": 234
+        }
+      }
+    }
+  ]
+}
