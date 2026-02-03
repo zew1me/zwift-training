@@ -138,7 +138,7 @@ def emit_block(workout_el: ET.Element, block: dict[str, Any], ftp: float | None)
         ET.SubElement(workout_el, tag, attrs)
         return
 
-    if block_type == "steadystate":
+    if block_type in {"steadystate", "steady"}:
         duration = to_seconds(block.get("minutes")) or int(block.get("seconds", 0))
         if duration <= 0:
             raise PlanError("steady requires minutes or seconds")
