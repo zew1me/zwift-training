@@ -1,0 +1,3 @@
+display_name: Creating Zwift Workout
+short_description: Convert plain text into Zwift .zwo workouts
+default_prompt: Convert the user's plain text workout description into a validated Zwift .zwo file in workouts/ using the standard warmup.
