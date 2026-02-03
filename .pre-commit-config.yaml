@@ -11,3 +11,10 @@ repos:
         entry: shfmt -w -i 2 -ci -sr
         language: system
         types: [shell]
+      - id: pyrefly
+        name: pyrefly
+        entry: uv run --with pyyaml pyrefly check skills/creating-zwift-workout/scripts
+        language: system
+        types: [python]
+        pass_filenames: false
+        files: ^skills/creating-zwift-workout/scripts/

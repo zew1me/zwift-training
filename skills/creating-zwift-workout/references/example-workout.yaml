@@ -1,0 +1,20 @@
+name: "60min Z2 + 3x2 @ 105-110%"
+author: "N.Stuke"
+description: "60 min Z2 + 3x2' @ 105–110% of FTP"
+sport: "bike"
+tags: ["CUSTOM"]
+blocks:
+  - type: standard_warmup
+  - type: steady
+    minutes: 30
+    power: z2
+  - type: intervals
+    repeat: 3
+    on_minutes: 2
+    on_power: [1.05, 1.10]
+    off_minutes: 2
+    off_power: 0.5
+  - type: cooldown
+    minutes: 10
+    power_low: 0.65
+    power_high: 0.45
