@@ -1,0 +1,14 @@
+<workout_file>
+    <author>N.Stuke</author>
+    <name>z2 90'</name>
+    <description></description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="RECOVERY"/>
+    </tags>
+    <workout>
+        <Warmup Duration="900" PowerLow="0.54128629" PowerHigh="0.72800827" pace="524" Cadence="96"/>
+        <SteadyState Duration="9900" Power="0.69225943" pace="524" Cadence="92"/>
+    </workout>
+</workout_file>
+             

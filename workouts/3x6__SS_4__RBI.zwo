@@ -1,0 +1,24 @@
+<workout_file>
+    <author>N.Stuke</author>
+    <name>3x6' SS 4' RBI</name>
+    <description></description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="INTERVALS"/>
+        <tag name="SS"/>
+    </tags>
+    <workout>
+        <Warmup Duration="300" PowerLow="0.50487179" PowerHigh="0.77153844" pace="0"/>
+        <SteadyState Duration="60.000004" Power="0.602" pace="0"/>
+        <FreeRide Duration="60.000004" FlatRoad="1" Cadence="114"/>
+        <SteadyState Duration="60.000004" Power="0.48948717" pace="0"/>
+        <FreeRide Duration="60.000004" FlatRoad="1" Cadence="114"/>
+        <SteadyState Duration="60.000004" Power="0.49117833" pace="0"/>
+        <SteadyState Duration="60.000004" Power="1.1190377" pace="0" Cadence="102"/>
+        <FreeRide Duration="120.00001" FlatRoad="1"/>
+        <SteadyState Duration="300" Power="0.72931814" pace="0"/>
+        <FreeRide Duration="120.00001" FlatRoad="1"/>
+        <IntervalsT Repeat="3" OnDuration="360" OffDuration="240" OnPower="0.98449999" OffPower="0.49449998" pace="0"/>
+        <FreeRide Duration="600" FlatRoad="0"/>
+    </workout>
+</workout_file>

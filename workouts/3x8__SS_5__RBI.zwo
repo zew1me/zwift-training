@@ -1,0 +1,21 @@
+<workout_file>
+    <author>N.Stuke</author>
+    <name>3x8' SS 5' RBI</name>
+    <description></description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="INTERVALS"/>
+        <tag name="SS"/>
+    </tags>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.50426006" PowerHigh="0.65758193" pace="0"/>
+        <SteadyState Duration="60.000004" Power="0.602" pace="0"/>
+        <FreeRide Duration="60" FlatRoad="1" Cadence="102"/>
+        <SteadyState Duration="60.000004" Power="0.48948717" pace="0"/>
+        <FreeRide Duration="60.000004" FlatRoad="1" Cadence="114"/>
+        <SteadyState Duration="60.000004" Power="0.49117833" pace="0"/>
+        <SteadyState Duration="60" Power="1.1186099" pace="0" Cadence="102"/>
+        <SteadyState Duration="480" Power="0.59610653" pace="0"/>
+        <IntervalsT Repeat="3" OnDuration="480" OffDuration="240" OnPower="0.96495903" OffPower="0.49026716" pace="0"/>
+    </workout>
+</workout_file>

@@ -1,0 +1,72 @@
+<workout_file>
+    <author>Nstuke</author>
+    <name>4x2 PFPI 2' RBI 8' EM 4x3 OU (2U, 1O) 3' RBI</name>
+    <description>Hard efforts in anaerobic zone.</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="INTERVALS"/>
+        <tag name="OU"/>
+        <tag name="Power"/>
+    </tags>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.5" PowerHigh="0.76200002" pace="0"/>
+        <SteadyState Duration="120" Power="0.60000002" pace="0"/>
+        <FreeRide Duration="60" FlatRoad="1" Cadence="114"/>
+        <SteadyState Duration="60" Power="0.479" pace="0"/>
+        <FreeRide Duration="60" FlatRoad="1" Cadence="114"/>
+        <SteadyState Duration="60" Power="0.48300001" pace="0"/>
+        <SteadyState Duration="60" Power="1.108" pace="0" Cadence="102"/>
+        <SteadyState Duration="1320" Power="0.75" pace="0"/>
+        <SteadyState Duration="180" Power="0.63700002" pace="0"/>
+        <FreeRide Duration="20" FlatRoad="1">
+            <textevent timeoffset="0" message="1/4"/>
+        </FreeRide>
+        <SteadyState Duration="100" Power="1.3352084" pace="0" Cadence="91"/>
+        <SteadyState Duration="120" Power="0" pace="0"/>
+        <FreeRide Duration="20" FlatRoad="1">
+            <textevent timeoffset="0" message="2/4"/>
+        </FreeRide>
+        <SteadyState Duration="100" Power="1.3352084" pace="0" Cadence="91"/>
+        <SteadyState Duration="120" Power="0" pace="0"/>
+        <FreeRide Duration="20" FlatRoad="1">
+            <textevent timeoffset="0" message="3/4"/>
+        </FreeRide>
+        <SteadyState Duration="100" Power="1.3352084" pace="0" Cadence="91"/>
+        <SteadyState Duration="120" Power="0" pace="0"/>
+        <FreeRide Duration="20" FlatRoad="1">
+            <textevent timeoffset="0" message="4/4"/>
+        </FreeRide>
+        <SteadyState Duration="100" Power="1.3352084" pace="0" Cadence="91"/>
+        <SteadyState Duration="120" Power="0" pace="0"/>
+        <SteadyState Duration="420" Power="0.64999998" pace="0"/>
+        <SteadyState Duration="60" Power="0" pace="0"/>
+        <SteadyState Duration="120" Power="0.97899997" pace="0">
+            <textevent timeoffset="0" message="1/4"/>
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.016" pace="0"/>
+        <SteadyState Duration="60" Power="0" pace="0"/>
+        <SteadyState Duration="60" Power="0.64999998" pace="0"/>
+        <SteadyState Duration="60" Power="0" pace="0"/>
+        <SteadyState Duration="120" Power="0.97899997" pace="0">
+            <textevent timeoffset="0" message="2/4"/>
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.016" pace="0"/>
+        <SteadyState Duration="60" Power="0" pace="0"/>
+        <SteadyState Duration="60" Power="0.64999998" pace="0"/>
+        <SteadyState Duration="60" Power="0" pace="0"/>
+        <SteadyState Duration="120" Power="0.97899997" pace="0">
+            <textevent timeoffset="0" message="3/4"/>
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.016" pace="0"/>
+        <SteadyState Duration="60" Power="0" pace="0"/>
+        <SteadyState Duration="60" Power="0.64999998" pace="0"/>
+        <SteadyState Duration="60" Power="0" pace="0"/>
+        <SteadyState Duration="120" Power="0.97899997" pace="0">
+            <textevent timeoffset="0" message="4/4"/>
+        </SteadyState>
+        <SteadyState Duration="60" Power="1.016" pace="0"/>
+        <SteadyState Duration="60" Power="0" pace="0"/>
+        <SteadyState Duration="60" Power="0.64999998" pace="0"/>
+        <SteadyState Duration="60" Power="0" pace="0"/>
+    </workout>
+</workout_file>

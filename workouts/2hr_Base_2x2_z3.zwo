@@ -1,0 +1,27 @@
+<workout_file>
+    <author>N.Stuke</author>
+    <name>2hr Base 2x2 z3</name>
+    <description>Base Training</description>
+    <sportType>bike</sportType>
+    <tags/>
+    <workout>
+        <SteadyState Duration="660" Power="0.5025" pace="0"/>
+        <Ramp Duration="600" PowerLow="0.55805552" PowerHigh="0.7525" pace="0" Cadence="85"/>
+        <Ramp Duration="600" PowerLow="0.7525" PowerHigh="0.58583331" pace="0" Cadence="85"/>
+        <Ramp Duration="600" PowerLow="0.58583331" PowerHigh="0.66916662" pace="0" Cadence="85"/>
+        <SteadyState Duration="120" Power="0.80805552" pace="0" Cadence="80"/>
+        <SteadyState Duration="300" Power="0.66916662" pace="0" Cadence="90"/>
+        <SteadyState Duration="300" Power="0.64138889" pace="0" Cadence="85"/>
+        <SteadyState Duration="300" Power="0.6136111" pace="0" Cadence="90"/>
+        <SteadyState Duration="300" Power="0.58583331" pace="0" Cadence="90"/>
+        <SteadyState Duration="300" Power="0.65249997" pace="0" Cadence="85"/>
+        <Ramp Duration="600" PowerLow="0.65249997" PowerHigh="0.7525" pace="0" Cadence="85"/>
+        <SteadyState Duration="120" Power="0.83583331" pace="0" Cadence="80"/>
+        <SteadyState Duration="600" Power="0.7525" pace="0" Cadence="85"/>
+        <SteadyState Duration="120" Power="0.56916666" pace="0" Cadence="92"/>
+        <Ramp Duration="600" PowerLow="0.6136111" PowerHigh="0.7525" pace="0" Cadence="85"/>
+        <Ramp Duration="1080" PowerLow="0.80805552" PowerHigh="0.55805552" pace="0" Cadence="90"/>
+        <Cooldown Duration="300" PowerLow="0.53027779" PowerHigh="0.39138886" pace="0"/>
+    </workout>
+</workout_file>
+                          

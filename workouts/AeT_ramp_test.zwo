@@ -1,0 +1,23 @@
+<workout_file>
+    <author>N.Stuke</author>
+    <name>AeT ramp test</name>
+    <description></description>
+    <sportType>bike</sportType>
+    <tags/>
+    <workout>
+        <Warmup Duration="300" PowerLow="0.50487179" PowerHigh="0.77153844" pace="0"/>
+        <SteadyState Duration="60.000004" Power="0.602" pace="0"/>
+        <FreeRide Duration="60.000004" FlatRoad="1" Cadence="114"/>
+        <SteadyState Duration="60.000004" Power="0.48948717" pace="0"/>
+        <FreeRide Duration="60.000004" FlatRoad="1" Cadence="114"/>
+        <SteadyState Duration="60.000004" Power="0.49117833" pace="0"/>
+        <SteadyState Duration="660" Power="0.60352695" pace="0" Cadence="92"/>
+        <SteadyState Duration="540" Power="0.70726138" pace="0" Cadence="92"/>
+        <SteadyState Duration="540" Power="0.72800827" pace="0" Cadence="92"/>
+        <SteadyState Duration="540" Power="0.74875516" pace="0" Cadence="92"/>
+        <SteadyState Duration="540" Power="0.76950204" pace="0" Cadence="92"/>
+        <SteadyState Duration="540" Power="0.79024893" pace="0" Cadence="92"/>
+        <SteadyState Duration="900" Power="0.58278006" pace="0"/>
+    </workout>
+</workout_file>
+                      

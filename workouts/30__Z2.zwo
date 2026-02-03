@@ -1,0 +1,14 @@
+<workout_file>
+    <author>N.Stuke</author>
+    <name>30' Z2</name>
+    <description></description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="RECOVERY"/>
+    </tags>
+    <workout>
+        <Warmup Duration="300" PowerLow="0.48305437" PowerHigh="0.69225943" pace="473" Cadence="91"/>
+        <SteadyState Duration="5100" Power="0.64382714" pace="473" Cadence="91"/>
+    </workout>
+</workout_file>
+             

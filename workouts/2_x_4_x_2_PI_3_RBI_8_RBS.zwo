@@ -1,0 +1,29 @@
+<workout_file>
+    <author>Nstuke</author>
+    <name>2 x [4 x 2 PI (3' RBI)]  8' RBS</name>
+    <description>Hard efforts in anaerobic zone.</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="INTERVALS"/>
+        <tag name="Power"/>
+    </tags>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.5" PowerHigh="0.76300001" pace="0"/>
+        <SteadyState Duration="120" Power="0.60000002" pace="0"/>
+        <FreeRide Duration="60" FlatRoad="1" Cadence="114"/>
+        <SteadyState Duration="60" Power="0.48100001" pace="0"/>
+        <FreeRide Duration="60" FlatRoad="1" Cadence="114"/>
+        <SteadyState Duration="60" Power="0.486" pace="0"/>
+        <SteadyState Duration="60" Power="1.109" pace="0" Cadence="102"/>
+        <SteadyState Duration="1320" Power="0.75" pace="0"/>
+        <SteadyState Duration="180" Power="0.63999999" pace="0"/>
+        <IntervalsT Repeat="4" OnDuration="120" OffDuration="180" OnPower="1.3412946" OffPower="0" pace="0">
+            <textevent timeoffset="0" message="4x"/>
+        </IntervalsT>
+        <SteadyState Duration="420" Power="0.62199998" pace="0"/>
+        <SteadyState Duration="60" Power="0" pace="0"/>
+        <IntervalsT Repeat="4" OnDuration="120" OffDuration="180" OnPower="1.3412946" OffPower="0" pace="0">
+            <textevent timeoffset="0" message="4x"/>
+        </IntervalsT>
+    </workout>
+</workout_file>

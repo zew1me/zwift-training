@@ -1,0 +1,24 @@
+<workout_file>
+    <author>N.Stuke</author>
+    <name>60' EM  @ 90RPM w z6 45" x 5</name>
+    <description></description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="RECOVERY"/>
+        <tag name="INTERVALS"/>
+        <tag name="EM"/>
+    </tags>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.50690472" PowerHigh="0.71642858" pace="1428186484" Cadence="90"/>
+        <FreeRide Duration="60" FlatRoad="1" Cadence="114"/>
+        <SteadyState Duration="60.000004" Power="0.48948717" pace="1428186484"/>
+        <FreeRide Duration="60" FlatRoad="1" Cadence="114"/>
+        <SteadyState Duration="60.000004" Power="0.49117833" pace="1428186484"/>
+        <SteadyState Duration="60.000004" Power="1.1184343" pace="1428186484" Cadence="102"/>
+        <Ramp Duration="600" PowerLow="0.59738094" PowerHigh="0.74023807" pace="0" Cadence="90"/>
+        <SteadyState Duration="180" Power="0.71642858" pace="0" Cadence="90"/>
+        <IntervalsT Repeat="5" OnDuration="45" OffDuration="180" OnPower="1.2164285" OffPower="0.64499998" pace="0" Cadence="88" CadenceResting="92"/>
+        <SteadyState Duration="195" Power="0.69261903" pace="0" Cadence="90"/>
+        <Cooldown Duration="600" PowerLow="0.74023807" PowerHigh="0.50690472" pace="1428186484"/>
+    </workout>
+</workout_file>

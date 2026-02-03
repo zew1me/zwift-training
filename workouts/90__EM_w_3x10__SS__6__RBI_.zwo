@@ -1,0 +1,23 @@
+<workout_file>
+    <author>N.Stuke</author>
+    <name>90' EM w 3x10' SS (6' RBI)</name>
+    <description></description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="INTERVALS"/>
+        <tag name="SS"/>
+    </tags>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.50487179" PowerHigh="0.77153844" pace="1428186484"/>
+        <SteadyState Duration="120" Power="0.60230768" pace="1428186484"/>
+        <FreeRide Duration="60" FlatRoad="1" Cadence="114"/>
+        <SteadyState Duration="60.000004" Power="0.48948717" pace="1428186484"/>
+        <FreeRide Duration="60.000004" FlatRoad="1" Cadence="114"/>
+        <SteadyState Duration="60.000004" Power="0.49117833" pace="1428186484"/>
+        <SteadyState Duration="60.000004" Power="1.1202564" pace="1428186484" Cadence="102"/>
+        <Ramp Duration="300" PowerLow="0.60230768" PowerHigh="0.75102562" pace="1428186484"/>
+        <Ramp Duration="180" PowerLow="0.75102562" PowerHigh="0.60230768" pace="1428186484"/>
+        <IntervalsT Repeat="3" OnDuration="600" OffDuration="360" OnPower="0.97088885" OffPower="0.55755556" pace="1428186484"/>
+        <SteadyState Duration="1020" Power="0.64846152" pace="1428186484"/>
+    </workout>
+</workout_file>

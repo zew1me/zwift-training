@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<workout_file>
+    <author>Nstuke</author>
+    <name>2 x [4 x 2 PI (2' RBI)]  8' RBS 120' tot</name>
+    <description>Hard efforts in anaerobic zone.</description>
+    <sportType>bike</sportType>
+    <tags/>
+    <workout>
+        <Warmup PowerHigh="0.763" PowerLow="0.5" Duration="600"/>
+        <SteadyState show_avg="1" Power="0.6" Duration="120"/>
+        <FreeRide FlatRoad="1" show_avg="1" Power="0.0" Cadence="114" Duration="60"/>
+        <SteadyState show_avg="1" Power="0.481" Duration="60"/>
+        <FreeRide FlatRoad="1" show_avg="1" Power="0.0" Cadence="114" Duration="60"/>
+        <SteadyState show_avg="1" Power="0.486" Duration="60"/>
+        <SteadyState show_avg="1" Power="1.109" Cadence="102" Duration="60"/>
+        <SteadyState show_avg="1" Power="0.75" Duration="3120"/>
+        <SteadyState show_avg="1" Power="0.64" Duration="180"/>
+        <SteadyState show_avg="1" Power="1.213" Duration="120">
+            <textevent message="1/4" duration="10"/>
+        </SteadyState>
+        <SteadyState show_avg="1" Power="0.0" Duration="180"/>
+        <SteadyState show_avg="1" Power="1.213" Duration="120">
+            <textevent message="2/4" duration="10"/>
+        </SteadyState>
+        <SteadyState show_avg="1" Power="0.0" Duration="180"/>
+        <SteadyState show_avg="1" Power="1.213" Duration="120">
+            <textevent message="3/4" duration="10"/>
+        </SteadyState>
+        <SteadyState show_avg="1" Power="0.0" Duration="180"/>
+        <SteadyState show_avg="1" Power="1.213" Duration="120">
+            <textevent message="4/4" duration="10"/>
+        </SteadyState>
+        <SteadyState show_avg="1" Power="0.0" Duration="180"/>
+        <SteadyState show_avg="1" Power="0.622" Duration="420"/>
+        <SteadyState show_avg="1" Power="0.0" Duration="60"/>
+        <SteadyState show_avg="1" Power="1.213" Duration="120">
+            <textevent message="1/4" duration="10"/>
+        </SteadyState>
+        <SteadyState show_avg="1" Power="0.0" Duration="180"/>
+        <SteadyState show_avg="1" Power="1.213" Duration="120">
+            <textevent message="2/4" duration="10"/>
+        </SteadyState>
+        <SteadyState show_avg="1" Power="0.0" Duration="180"/>
+        <SteadyState show_avg="1" Power="1.213" Duration="120">
+            <textevent message="3/4" duration="10"/>
+        </SteadyState>
+        <SteadyState show_avg="1" Power="0.0" Duration="180"/>
+        <SteadyState show_avg="1" Power="1.213" Duration="120">
+            <textevent message="4/4" duration="10"/>
+        </SteadyState>
+        <SteadyState show_avg="1" Power="0.0" Duration="180"/>
+    </workout>
+</workout_file>

@@ -1,0 +1,22 @@
+<workout_file>
+    <author>N.Stuke</author>
+    <name>8x1' PI 1' RBI (1)</name>
+    <description></description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="INTERVALS"/>
+    </tags>
+    <workout>
+        <Warmup Duration="300" PowerLow="0.50487173" PowerHigh="0.74566114" pace="0"/>
+        <SteadyState Duration="60.000004" Power="0.50999999" pace="0"/>
+        <FreeRide Duration="60.000004" FlatRoad="1" Cadence="114"/>
+        <SteadyState Duration="60.000004" Power="0.5" pace="0"/>
+        <FreeRide Duration="60.000004" FlatRoad="1" Cadence="114"/>
+        <SteadyState Duration="60.000004" Power="0.5" pace="0"/>
+        <SteadyState Duration="60.000004" Power="1.12" pace="0" Cadence="102"/>
+        <SteadyState Duration="2280" Power="0.61007601" pace="0" Cadence="92"/>
+        <SteadyState Duration="60" Power="0.47699618" pace="0"/>
+        <IntervalsT Repeat="8" OnDuration="60" OffDuration="60" OnPower="1.4846008" OffPower="0.40095055" pace="0"/>
+        <Cooldown Duration="540" PowerLow="0.59202492" PowerHigh="0.45798478" pace="0"/>
+    </workout>
+</workout_file>

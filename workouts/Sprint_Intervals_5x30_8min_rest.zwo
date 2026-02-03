@@ -1,0 +1,21 @@
+<workout_file>
+    <author>N.Stuke</author>
+    <name>Sprint Intervals 5x30 8min rest</name>
+    <description></description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="INTERVALS"/>
+    </tags>
+    <workout>
+        <SteadyState Duration="300" Power="0.49971426" pace="0" Cadence="90"/>
+        <SteadyState Duration="300" Power="0.64828569" pace="0" Cadence="90"/>
+        <SteadyState Duration="300" Power="0.95114285" pace="0"/>
+        <SteadyState Duration="120" Power="0.49971426" pace="0"/>
+        <SteadyState Duration="30" Power="1.0997143" pace="0"/>
+        <SteadyState Duration="120" Power="0.49971426" pace="0" Cadence="85"/>
+        <SteadyState Duration="10" Power="1.2482857" pace="0"/>
+        <SteadyState Duration="180" Power="0.49971426" pace="0"/>
+        <IntervalsT Repeat="5" OnDuration="30" OffDuration="480" OnPower="1.2597142" OffPower="0.49971426" pace="0"/>
+    </workout>
+</workout_file>
+                    

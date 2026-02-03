@@ -1,0 +1,23 @@
+<workout_file>
+    <author>N.Stuke</author>
+    <name>6x 1:30 @ Z6 (310W @ 256FTP)</name>
+    <description></description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="INTERVALS"/>
+    </tags>
+    <workout>
+        <Warmup Duration="300" PowerLow="0.50487179" PowerHigh="0.77153844" pace="0"/>
+        <SteadyState Duration="60.000004" Power="0.602" pace="0"/>
+        <FreeRide Duration="60.000004" FlatRoad="1" Cadence="114"/>
+        <SteadyState Duration="60.000004" Power="0.48948717" pace="0"/>
+        <FreeRide Duration="60.000004" FlatRoad="1" Cadence="114"/>
+        <SteadyState Duration="60.000004" Power="0.49117833" pace="0"/>
+        <SteadyState Duration="60.000004" Power="1.1190377" pace="0" Cadence="102"/>
+        <SteadyState Duration="120" Power="0.52910155" pace="0"/>
+        <SteadyState Duration="540" Power="0.6501953" pace="0"/>
+        <IntervalsT Repeat="6" OnDuration="90" OffDuration="240" OnPower="1.2126954" OffPower="0.49003905" pace="0" Cadence="95" CadenceResting="65"/>
+        <SteadyState Duration="1200" Power="0.6658203" pace="0"/>
+    </workout>
+</workout_file>
+                      

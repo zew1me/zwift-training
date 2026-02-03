@@ -1,0 +1,35 @@
+<workout_file>
+    <author>N.Stuke</author>
+    <name>CTS Test</name>
+    <description>CTS test</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="FTP"/>
+    </tags>
+    <workout>
+        <Warmup Duration="300" PowerLow="0.47443819" PowerHigh="0.62050557" pace="619" Cadence="85"/>
+        <FreeRide Duration="60" FlatRoad="1" Cadence="102"/>
+        <SteadyState Duration="60" Power="0.56432581" pace="619" Cadence="95"/>
+        <FreeRide Duration="120" FlatRoad="1" Cadence="102"/>
+        <SteadyState Duration="60" Power="0.55870783" pace="619" Cadence="95"/>
+        <Ramp Duration="30" PowerLow="1.0980337" PowerHigh="2.1373596" pace="619" Cadence="92"/>
+        <SteadyState Duration="30" Power="2" pace="619" Cadence="92">
+            <textevent timeoffset="2" message="Max power!"/>
+        </SteadyState>
+        <Ramp Duration="120" PowerLow="0.74971908" PowerHigh="0.53623593" pace="619" Cadence="94"/>
+        <Ramp Duration="30" PowerLow="1.0980337" PowerHigh="2.1373596" pace="619" Cadence="92"/>
+        <SteadyState Duration="30" Power="2.1373596" pace="619" Cadence="92"/>
+        <Ramp Duration="240" PowerLow="0.62050557" PowerHigh="0.50814605" pace="619" Cadence="94"/>
+        <Ramp Duration="45" PowerLow="0.95758426" PowerHigh="1.2497191" pace="619" Cadence="96">
+            <textevent timeoffset="25" message="Max effort!"/>
+        </Ramp>
+        <FreeRide Duration="435" FlatRoad="1" Cadence="95"/>
+        <SteadyState Duration="600" Power="0.50252807" pace="619"/>
+        <Ramp Duration="45" PowerLow="0.95758426" PowerHigh="1.2497191" pace="619" Cadence="94">
+            <textevent timeoffset="29.881653" message="Max effort!"/>
+        </Ramp>
+        <FreeRide Duration="435" FlatRoad="1" Cadence="95"/>
+        <SteadyState Duration="600" Power="0.50252807" pace="619"/>
+    </workout>
+</workout_file>
+                                  

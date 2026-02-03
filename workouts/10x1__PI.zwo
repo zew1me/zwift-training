@@ -1,0 +1,21 @@
+<workout_file>
+    <author>N.Stuke</author>
+    <name>10x1' PI</name>
+    <description></description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="INTERVALS"/>
+    </tags>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.50487179" PowerHigh="0.77153844" pace="0"/>
+        <FreeRide Duration="60.000004" FlatRoad="1" Cadence="114"/>
+        <SteadyState Duration="60.000004" Power="0.48948717" pace="0"/>
+        <FreeRide Duration="60.000004" FlatRoad="1" Cadence="114"/>
+        <SteadyState Duration="60.000004" Power="0.49117833" pace="0"/>
+        <SteadyState Duration="60.000004" Power="1.1184343" pace="0" Cadence="102"/>
+        <SteadyState Duration="300" Power="0.68780988" pace="0"/>
+        <SteadyState Duration="90" Power="0.55971074" pace="0"/>
+        <IntervalsT Repeat="10" OnDuration="60" OffDuration="60" OnPower="1.5514463" OffPower="0.45640495" pace="0"/>
+        <Cooldown Duration="600" PowerLow="0.55971074" PowerHigh="0.45640495" pace="0"/>
+    </workout>
+</workout_file>

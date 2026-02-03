@@ -1,0 +1,20 @@
+<workout_file>
+    <author>N.Stuke</author>
+    <name>AeT prog ramp</name>
+    <description></description>
+    <sportType>bike</sportType>
+    <tags/>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.50394189" PowerHigh="0.69288617" pace="32759"/>
+        <SteadyState Duration="60.000004" Power="0.602" pace="32759"/>
+        <FreeRide Duration="60" FlatRoad="1" Cadence="114"/>
+        <SteadyState Duration="60.000004" Power="0.48948717" pace="32759"/>
+        <FreeRide Duration="60" FlatRoad="1" Cadence="114"/>
+        <SteadyState Duration="60.000004" Power="0.49117833" pace="32759"/>
+        <SteadyState Duration="120" Power="0.49549356" pace="32759"/>
+        <SteadyState Duration="300" Power="0.66716737" pace="0"/>
+        <Ramp Duration="1200" PowerLow="0.68862659" PowerHigh="1.1178112" pace="32759"/>
+        <SteadyState Duration="300" Power="0.71008581" pace="32759"/>
+    </workout>
+</workout_file>
+                   

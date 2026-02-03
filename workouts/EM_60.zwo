@@ -1,0 +1,20 @@
+<workout_file>
+    <author>N.Stuke</author>
+    <name>Endurance Miles 60'</name>
+    <description></description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout>
+        <Warmup Duration="300" PowerLow="0.50487179" PowerHigh="0.77153844" pace="0"/>
+        <SteadyState Duration="60.000004" Power="0.602" pace="0"/>
+        <FreeRide Duration="60" FlatRoad="1" Cadence="114"/>
+        <SteadyState Duration="60.000004" Power="0.48948717" pace="0"/>
+        <FreeRide Duration="60" FlatRoad="1" Cadence="114"/>
+        <SteadyState Duration="60.000004" Power="0.49117833" pace="0"/>
+        <SteadyState Duration="60" Power="1.1190377" pace="0" Cadence="102"/>
+        <SteadyState Duration="120.00001" Power="0.64873737" pace="0"/>
+        <SteadyState Duration="2820" Power="0.75" Cadence="91"/>
+    </workout>
+</workout_file>
+                   

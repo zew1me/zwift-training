@@ -1,0 +1,14 @@
+<workout_file>
+    <author>N.Stuke</author>
+    <name>30' Recovery @93rpm</name>
+    <description></description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="RECOVERY"/>
+    </tags>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.50635964" PowerHigh="0.65109646" pace="0" Cadence="93"/>
+        <Cooldown Duration="600" PowerLow="0.65109646" PowerHigh="0.41864035" pace="0" Cadence="93"/>
+    </workout>
+</workout_file>
+             

@@ -1,0 +1,35 @@
+<workout_file>
+    <author>N.Stuke</author>
+    <name>3x TL 1-3-5</name>
+    <description></description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="INTERVALS"/>
+    </tags>
+    <workout>
+        <Warmup Duration="300" PowerLow="0.50487179" PowerHigh="0.77153844" pace="0"/>
+        <SteadyState Duration="60.000004" Power="0.602" pace="0"/>
+        <FreeRide Duration="60.000004" FlatRoad="1" Cadence="114"/>
+        <SteadyState Duration="60.000004" Power="0.48948717" pace="0"/>
+        <FreeRide Duration="60.000004" FlatRoad="1" Cadence="114"/>
+        <SteadyState Duration="60.000004" Power="0.49117833" pace="0"/>
+        <SteadyState Duration="60" Power="1.1190377" pace="0" Cadence="102"/>
+        <SteadyState Duration="600" Power="0.60752034" pace="0" Cadence="92"/>
+        <SteadyState Duration="60" Power="1.5831301" pace="0" Cadence="100"/>
+        <SteadyState Duration="180" Power="1.0993903" pace="0" Cadence="90"/>
+        <SteadyState Duration="300" Power="1.0384146" pace="0" Cadence="90"/>
+        <FreeRide Duration="60" FlatRoad="1"/>
+        <SteadyState Duration="240.00002" Power="0.47510287" pace="0" Cadence="92"/>
+        <SteadyState Duration="60" Power="1.5831301" pace="0" Cadence="100"/>
+        <SteadyState Duration="240.00002" Power="1.0993903" pace="0" Cadence="90"/>
+        <SteadyState Duration="300" Power="1.0384146" pace="0" Cadence="90"/>
+        <FreeRide Duration="60" FlatRoad="1"/>
+        <SteadyState Duration="240.00002" Power="0.47510287" pace="0" Cadence="92"/>
+        <SteadyState Duration="60" Power="1.5831301" pace="0" Cadence="100"/>
+        <SteadyState Duration="240.00002" Power="1.0993903" pace="0" Cadence="90"/>
+        <SteadyState Duration="300" Power="1.0384146" pace="0" Cadence="90"/>
+        <FreeRide Duration="60" FlatRoad="1"/>
+        <SteadyState Duration="240.00002" Power="0.49567899" pace="0" Cadence="92"/>
+        <SteadyState Duration="900.00006" Power="0.64794236" pace="0"/>
+    </workout>
+</workout_file>

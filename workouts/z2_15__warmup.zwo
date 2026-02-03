@@ -1,0 +1,12 @@
+<workout_file>
+    <author>N.Stuke</author>
+    <name>z2 15' warmup</name>
+    <description></description>
+    <sportType>bike</sportType>
+    <tags/>
+    <workout>
+        <Warmup Duration="900" PowerLow="0.49979252" PowerHigh="0.62427384" pace="0"/>
+        <SteadyState Duration="5400" Power="0.65746886" pace="0"/>
+    </workout>
+</workout_file>
+           

@@ -1,0 +1,27 @@
+<workout_file>
+    <author>N.Stuke</author>
+    <name>3x[3-4x15" x2'R]  5'RBS</name>
+    <description>Taken from Garmin. 15 second sprint efforts with rests</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="INTERVALS"/>
+        <tag name="SPRINT"/>
+    </tags>
+    <workout>
+        <Warmup Duration="300" PowerLow="0.50422221" PowerHigh="0.77088886" pace="0"/>
+        <FreeRide Duration="60.000004" FlatRoad="1" Cadence="114"/>
+        <SteadyState Duration="60.000004" Power="0.48948717" pace="0"/>
+        <FreeRide Duration="60.000004" FlatRoad="1" Cadence="114"/>
+        <SteadyState Duration="60.000004" Power="0.49117833" pace="0"/>
+        <SteadyState Duration="60.000004" Power="1.1184343" pace="0" Cadence="102"/>
+        <Ramp Duration="300" PowerLow="0.5721491" PowerHigh="0.68179822" pace="0"/>
+        <SteadyState Duration="300" Power="0.68179822" pace="0" Cadence="85"/>
+        <IntervalsT Repeat="3" OnDuration="15" OffDuration="120" OnPower="1.8002193" OffPower="0.39671052" pace="0" Cadence="83" CadenceResting="95"/>
+        <SteadyState Duration="300" Power="0.65109646" pace="0"/>
+        <IntervalsT Repeat="3" OnDuration="15" OffDuration="120" OnPower="1.8002193" OffPower="0.39671052" pace="0" Cadence="83" CadenceResting="95"/>
+        <SteadyState Duration="300" Power="0.65109646" pace="0"/>
+        <IntervalsT Repeat="4" OnDuration="15" OffDuration="120" OnPower="1.8002193" OffPower="0.39671052" pace="0" Cadence="83" CadenceResting="95"/>
+        <Cooldown Duration="240" PowerLow="0.65548247" PowerHigh="0.50635964" pace="0"/>
+    </workout>
+</workout_file>
+                          

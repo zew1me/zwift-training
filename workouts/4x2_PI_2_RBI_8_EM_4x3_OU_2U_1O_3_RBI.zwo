@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<workout_file>
+    <author>Nstuke</author>
+    <name>4x2 PI 2' RBI 8' EM 4x3 OU (2U, 1O) 3' RBI</name>
+    <description>Hard efforts in anaerobic zone.</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="OU"/>
+        <tag name="INTERVALS"/>
+        <tag name="Power"/>
+    </tags>
+    <workout>
+        <Warmup PowerHigh="0.762" PowerLow="0.5" Duration="600"/>
+        <SteadyState show_avg="1" Power="0.6" Duration="120"/>
+        <FreeRide FlatRoad="1" show_avg="1" Power="0.0" Cadence="114" Duration="60"/>
+        <SteadyState show_avg="1" Power="0.479" Duration="60"/>
+        <FreeRide FlatRoad="1" show_avg="1" Power="0.0" Cadence="114" Duration="60"/>
+        <SteadyState show_avg="1" Power="0.483" Duration="60"/>
+        <SteadyState show_avg="1" Power="1.108" Cadence="102" Duration="60"/>
+        <SteadyState show_avg="1" Power="0.75" Duration="1320"/>
+        <SteadyState show_avg="1" Power="0.637" Duration="180"/>
+        <IntervalsT OnPower="1.212" OffPower="0.0" show_avg="1" Repeat="4" OffDuration="120" OnDuration="120">
+            <textevent message="4x"/>
+        </IntervalsT>
+        <SteadyState show_avg="1" Power="0.65" Duration="420"/>
+        <SteadyState show_avg="1" Power="0.0" Duration="60"/>
+        <SteadyState show_avg="1" Power="0.979" Duration="120">
+            <textevent message="1/4" duration="10"/>
+        </SteadyState>
+        <SteadyState show_avg="1" Power="1.016" Duration="60"/>
+        <SteadyState show_avg="1" Power="0.0" Duration="60"/>
+        <SteadyState show_avg="1" Power="0.65" Duration="60"/>
+        <SteadyState show_avg="1" Power="0.0" Duration="60"/>
+        <SteadyState show_avg="1" Power="0.979" Duration="120">
+            <textevent message="2/4" duration="10"/>
+        </SteadyState>
+        <SteadyState show_avg="1" Power="1.016" Duration="60"/>
+        <SteadyState show_avg="1" Power="0.0" Duration="60"/>
+        <SteadyState show_avg="1" Power="0.65" Duration="60"/>
+        <SteadyState show_avg="1" Power="0.0" Duration="60"/>
+        <SteadyState show_avg="1" Power="0.979" Duration="120">
+            <textevent message="3/4" duration="10"/>
+        </SteadyState>
+        <SteadyState show_avg="1" Power="1.016" Duration="60"/>
+        <SteadyState show_avg="1" Power="0.0" Duration="60"/>
+        <SteadyState show_avg="1" Power="0.65" Duration="60"/>
+        <SteadyState show_avg="1" Power="0.0" Duration="60"/>
+        <SteadyState show_avg="1" Power="0.979" Duration="120">
+            <textevent message="4/4" duration="10"/>
+        </SteadyState>
+        <SteadyState show_avg="1" Power="1.016" Duration="60"/>
+        <SteadyState show_avg="1" Power="0.0" Duration="60"/>
+        <SteadyState show_avg="1" Power="0.65" Duration="60"/>
+        <SteadyState show_avg="1" Power="0.0" Duration="60"/>
+    </workout>
+</workout_file>

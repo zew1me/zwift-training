@@ -1,0 +1,41 @@
+<workout_file>
+    <author>N.Stuke</author>
+    <name>4x2[PFPI2RBI]8R4x3[2U1O3RBI]</name>
+    <description></description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="INTERVALS"/>
+        <tag name="PFPI"/>
+        <tag name="OU"/>
+    </tags>
+    <workout>
+        <Warmup Duration="300" PowerLow="0.50422221" PowerHigh="0.77088886" pace="1428186484">
+            <textevent timeoffset="1365" message="full power!"/>
+        </Warmup>
+        <FreeRide Duration="60" FlatRoad="1" Cadence="114"/>
+        <SteadyState Duration="60.000004" Power="0.48948717" pace="1428186484"/>
+        <FreeRide Duration="60" FlatRoad="1" Cadence="114"/>
+        <SteadyState Duration="60.000004" Power="0.49117833" pace="1428186484"/>
+        <SteadyState Duration="60.000004" Power="1.1184343" pace="1428186484" Cadence="102"/>
+        <SteadyState Duration="120" Power="0.602" pace="1428186484"/>
+        <SteadyState Duration="45" Power="1.7797779" pace="0" Cadence="95"/>
+        <SteadyState Duration="75" Power="1.2508889" pace="0" Cadence="95"/>
+        <SteadyState Duration="120" Power="0.53977776" pace="0"/>
+        <SteadyState Duration="45" Power="1.7797779" pace="0" Cadence="94"/>
+        <SteadyState Duration="75" Power="1.2508889" pace="0" Cadence="94"/>
+        <SteadyState Duration="120" Power="0.53533334" pace="0"/>
+        <SteadyState Duration="45" Power="1.7797779" pace="0" Cadence="93"/>
+        <SteadyState Duration="75" Power="1.2508889" pace="0" Cadence="93"/>
+        <SteadyState Duration="120" Power="0.53533334" pace="0"/>
+        <SteadyState Duration="45" Power="1.7797779" pace="0" Cadence="93"/>
+        <SteadyState Duration="75" Power="1.2508889" pace="0" Cadence="93"/>
+        <SteadyState Duration="120" Power="0.53533334" pace="0"/>
+        <Ramp Duration="480" PowerLow="0.74866664" PowerHigh="0.53533334" pace="0"/>
+        <IntervalsT Repeat="4" OnDuration="120" OffDuration="60" OnPower="0.97088885" OffPower="1.0775555" pace="0" OverUnder="1"/>
+        <SteadyState Duration="180" Power="0.53533334" pace="0"/>
+        <IntervalsT Repeat="4" OnDuration="120" OffDuration="60" OnPower="0.97088885" OffPower="1.0775555" pace="0" OverUnder="1"/>
+        <SteadyState Duration="180" Power="0.53533334" pace="0"/>
+        <IntervalsT Repeat="4" OnDuration="120" OffDuration="60" OnPower="0.97088885" OffPower="1.0775555" pace="0" OverUnder="1"/>
+        <SteadyState Duration="180" Power="0.55755556" pace="0"/>
+    </workout>
+</workout_file>

@@ -1,0 +1,22 @@
+<workout_file>
+    <author>N.Stuke</author>
+    <name>Base z2 ping pong</name>
+    <description>Based off Sweet Spot Training (or SST for short), but kept in base  will give great bang for buck as you can spend quite a bit of time in the Sweet Spot of your power curve without building up undue amounts of training stress. You can do this workout as much as you'd like</description>
+    <sportType>bike</sportType>
+    <tags/>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.40140447" PowerHigh="0.76095504" pace="0"/>
+        <SteadyState Duration="300" Power="0.75533706" pace="0"/>
+        <SteadyState Duration="300" Power="0.62050557" pace="0"/>
+        <SteadyState Duration="180.00002" Power="0.5" pace="0"/>
+        <SteadyState Duration="60.000004" Power="1.1" pace="0"/>
+        <SteadyState Duration="60.000004" Power="0.5" pace="0"/>
+        <IntervalsT Repeat="2" OnDuration="300" OffDuration="300" OnPower="0.75533706" OffPower="0.64859551" pace="0" OverUnder="1"/>
+        <SteadyState Duration="180.00002" Power="0.5" pace="0"/>
+        <SteadyState Duration="60.000004" Power="1.1" pace="0"/>
+        <SteadyState Duration="60.000004" Power="0.5" pace="0"/>
+        <IntervalsT Repeat="3" OnDuration="300" OffDuration="300" OnPower="0.75533706" OffPower="0.67668539" pace="0" OverUnder="1"/>
+        <Cooldown Duration="600" PowerLow="0.76095504" PowerHigh="0.54747188" pace="0"/>
+    </workout>
+</workout_file>
+                     

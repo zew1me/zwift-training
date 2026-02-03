@@ -1,0 +1,82 @@
+<workout_file>
+    <author>N.Stuke</author>
+    <name>5x 2' PI 5x 1' PI</name>
+    <description></description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="INTERVALS"/>
+    </tags>
+    <workout>
+        <Warmup Duration="300" PowerLow="0.50487179" PowerHigh="0.77153844" pace="-1541783132"/>
+        <SteadyState Duration="60" Power="0.602" pace="-1541783132"/>
+        <FreeRide Duration="60" FlatRoad="0" Cadence="114"/>
+        <SteadyState Duration="60" Power="0.48948717" pace="-1541783132"/>
+        <FreeRide Duration="60" FlatRoad="0" Cadence="114"/>
+        <SteadyState Duration="60" Power="0.49117833" pace="-1541783132"/>
+        <SteadyState Duration="60" Power="1.1190377" pace="-1541783132" Cadence="102"/>
+        <SteadyState Duration="1200" Power="0.65190113" pace="-1541783132" Cadence="92"/>
+        <SteadyState Duration="10" Power="0.85000002" pace="-1541783132" Cadence="95"/>
+        <SteadyState Duration="60" Power="0.60000002" pace="-1541783132" Cadence="92"/>
+        <SteadyState Duration="10" Power="1" pace="-1541783132" Cadence="98"/>
+        <SteadyState Duration="10" Power="1.15" pace="-1541783132" Cadence="100"/>
+        <SteadyState Duration="15" Power="1.1500001" pace="-1541783132" Cadence="100"/>
+        <SteadyState Duration="75" Power="1.1500001" pace="-1541783132" Cadence="100"/>
+        <FreeRide Duration="120" FlatRoad="0"/>
+        <SteadyState Duration="10" Power="0.85000002" pace="-1541783132" Cadence="95"/>
+        <SteadyState Duration="10" Power="1.0017111" pace="-1541783132" Cadence="98"/>
+        <SteadyState Duration="10" Power="1.15" pace="-1541783132" Cadence="100"/>
+        <SteadyState Duration="15" Power="1.1500001" pace="-1541783132" Cadence="100"/>
+        <SteadyState Duration="75" Power="1.1500001" pace="-1541783132" Cadence="100"/>
+        <FreeRide Duration="120" FlatRoad="0"/>
+        <SteadyState Duration="10" Power="0.85000002" pace="-1541783132" Cadence="95"/>
+        <SteadyState Duration="10" Power="1" pace="-1541783132" Cadence="98"/>
+        <SteadyState Duration="10" Power="1.15" pace="-1541783132" Cadence="100"/>
+        <SteadyState Duration="15" Power="1.1500001" pace="-1541783132" Cadence="100"/>
+        <SteadyState Duration="75" Power="1.1500001" pace="-1541783132" Cadence="100"/>
+        <FreeRide Duration="120" FlatRoad="0"/>
+        <SteadyState Duration="10" Power="0.85000002" pace="-1541783132" Cadence="95"/>
+        <SteadyState Duration="10" Power="1" pace="-1541783132" Cadence="98"/>
+        <SteadyState Duration="10" Power="1.15" pace="-1541783132" Cadence="100"/>
+        <SteadyState Duration="15" Power="1.1500001" pace="-1541783132" Cadence="100"/>
+        <SteadyState Duration="75" Power="1.1500001" pace="-1541783132" Cadence="100"/>
+        <FreeRide Duration="120" FlatRoad="0"/>
+        <SteadyState Duration="10" Power="0.85000002" pace="-1541783132" Cadence="95"/>
+        <SteadyState Duration="10" Power="1" pace="-1541783132" Cadence="98"/>
+        <SteadyState Duration="10" Power="1.15" pace="-1541783132" Cadence="100"/>
+        <SteadyState Duration="15" Power="1.1500001" pace="-1541783132" Cadence="100"/>
+        <SteadyState Duration="75" Power="1.1500001" pace="-1541783132" Cadence="100"/>
+        <FreeRide Duration="120" FlatRoad="0"/>
+        <SteadyState Duration="360" Power="0.64809883" pace="-1541783132" Cadence="92"/>
+        <SteadyState Duration="120" Power="0.60000002" pace="-1541783132" Cadence="92"/>
+        <SteadyState Duration="10" Power="0.68000001" pace="-1541783132" Cadence="95"/>
+        <SteadyState Duration="10" Power="1" pace="-1541783132" Cadence="98"/>
+        <SteadyState Duration="10" Power="1.25" pace="-1541783132" Cadence="100"/>
+        <SteadyState Duration="10" Power="1.2754754" pace="-1541783132" Cadence="100"/>
+        <SteadyState Duration="20" Power="1.2944868" pace="-1541783132" Cadence="100"/>
+        <FreeRide Duration="60" FlatRoad="0"/>
+        <SteadyState Duration="10" Power="0.68000001" pace="-1541783132" Cadence="95"/>
+        <SteadyState Duration="10" Power="1" pace="-1541783132" Cadence="98"/>
+        <SteadyState Duration="10" Power="1.25" pace="-1541783132" Cadence="100"/>
+        <SteadyState Duration="10" Power="1.2754754" pace="-1541783132" Cadence="100"/>
+        <SteadyState Duration="20" Power="1.2944868" pace="-1541783132" Cadence="100"/>
+        <FreeRide Duration="60" FlatRoad="0"/>
+        <SteadyState Duration="10" Power="0.68000001" pace="-1541783132" Cadence="95"/>
+        <SteadyState Duration="10" Power="1" pace="-1541783132" Cadence="98"/>
+        <SteadyState Duration="10" Power="1.2754754" pace="-1541783132" Cadence="100"/>
+        <SteadyState Duration="10" Power="1.2754754" pace="-1541783132" Cadence="100"/>
+        <SteadyState Duration="20" Power="1.2944868" pace="-1541783132" Cadence="100"/>
+        <FreeRide Duration="60" FlatRoad="0"/>
+        <SteadyState Duration="10" Power="0.68000001" pace="-1541783132" Cadence="95"/>
+        <SteadyState Duration="10" Power="1" pace="-1541783132" Cadence="98"/>
+        <SteadyState Duration="10" Power="1.25" pace="-1541783132" Cadence="100"/>
+        <SteadyState Duration="10" Power="1.2754754" pace="-1541783132" Cadence="100"/>
+        <SteadyState Duration="20" Power="1.2944868" pace="-1541783132" Cadence="100"/>
+        <FreeRide Duration="60" FlatRoad="0"/>
+        <SteadyState Duration="10" Power="0.68000001" pace="-1541783132" Cadence="95"/>
+        <SteadyState Duration="10" Power="1" pace="-1541783132" Cadence="98"/>
+        <SteadyState Duration="10" Power="1.25" pace="-1541783132" Cadence="100"/>
+        <SteadyState Duration="10" Power="1.2754754" pace="-1541783132" Cadence="100"/>
+        <SteadyState Duration="20" Power="1.2944868" pace="-1541783132" Cadence="100"/>
+        <FreeRide Duration="60" FlatRoad="0"/>
+    </workout>
+</workout_file>

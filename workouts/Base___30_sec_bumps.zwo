@@ -1,0 +1,24 @@
+<workout_file>
+    <author>N.Stuke</author>
+    <name>Base + 30 sec bumps</name>
+    <description>base + 30 sec bumps</description>
+    <sportType>bike</sportType>
+    <tags/>
+    <workout>
+        <Warmup Duration="720.00006" PowerLow="0.44694439" PowerHigh="0.6136111" pace="0"/>
+        <SteadyState Duration="300" Power="0.72472221" pace="0"/>
+        <SteadyState Duration="30.000002" Power="0.80805552" pace="0"/>
+        <SteadyState Duration="300" Power="0.72472221" pace="0"/>
+        <SteadyState Duration="30.000002" Power="0.95249999" pace="0"/>
+        <SteadyState Duration="300" Power="0.71361107" pace="0"/>
+        <SteadyState Duration="30.000002" Power="1.0969445" pace="0"/>
+        <SteadyState Duration="300" Power="0.71361107" pace="0"/>
+        <SteadyState Duration="30.000002" Power="1.1469444" pace="0"/>
+        <SteadyState Duration="300" Power="0.65249997" pace="0"/>
+        <SteadyState Duration="30.000002" Power="1.1802777" pace="0"/>
+        <SteadyState Duration="300" Power="0.72472221" pace="0"/>
+        <SteadyState Duration="30.000002" Power="1.0302777" pace="0"/>
+        <Cooldown Duration="840.00006" PowerLow="0.7525" PowerHigh="0.43583328" pace="0"/>
+    </workout>
+</workout_file>
+                       

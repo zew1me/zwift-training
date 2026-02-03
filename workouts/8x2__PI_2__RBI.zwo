@@ -1,0 +1,63 @@
+<workout_file>
+    <author>N.Stuke</author>
+    <name>8x2' PI 2' RBI</name>
+    <description></description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="INTERVALS"/>
+    </tags>
+    <workout>
+        <Warmup Duration="300" PowerLow="0.50487179" PowerHigh="0.78715384" pace="678"/>
+        <SteadyState Duration="60" Power="0.50999999" pace="678"/>
+        <FreeRide Duration="60" FlatRoad="1" Cadence="114"/>
+        <SteadyState Duration="60.000004" Power="0.5" pace="678"/>
+        <FreeRide Duration="60" FlatRoad="1" Cadence="114"/>
+        <SteadyState Duration="60.000004" Power="0.5" pace="678"/>
+        <SteadyState Duration="60" Power="1.12" pace="678" Cadence="102"/>
+        <SteadyState Duration="600" Power="0.69288617" pace="678" Cadence="92"/>
+        <SteadyState Duration="120" Power="0.56280488" pace="678" Cadence="92"/>
+        <SteadyState Duration="10" Power="0.85" pace="678" Cadence="95"/>
+        <SteadyState Duration="10" Power="1.05" pace="678" Cadence="98"/>
+        <SteadyState Duration="10" Power="1.25" pace="678" Cadence="100"/>
+        <SteadyState Duration="90" Power="1.4" pace="678" Cadence="100"/>
+        <FreeRide Duration="120" FlatRoad="0"/>
+        <SteadyState Duration="10" Power="0.85" pace="678" Cadence="95"/>
+        <SteadyState Duration="10" Power="1.05" pace="678" Cadence="98"/>
+        <SteadyState Duration="10" Power="1.25" pace="678" Cadence="100"/>
+        <SteadyState Duration="90" Power="1.4" pace="678" Cadence="100"/>
+        <FreeRide Duration="120" FlatRoad="0"/>
+        <SteadyState Duration="10" Power="0.85" pace="678" Cadence="95"/>
+        <SteadyState Duration="10" Power="1.05" pace="678" Cadence="98"/>
+        <SteadyState Duration="10" Power="1.25" pace="678" Cadence="100"/>
+        <SteadyState Duration="90" Power="1.4" pace="678" Cadence="100"/>
+        <FreeRide Duration="120" FlatRoad="0"/>
+        <SteadyState Duration="10" Power="0.85" pace="678" Cadence="95"/>
+        <SteadyState Duration="10" Power="1.05" pace="678" Cadence="98"/>
+        <SteadyState Duration="10" Power="1.25" pace="678" Cadence="100"/>
+        <SteadyState Duration="90" Power="1.4" pace="678" Cadence="100"/>
+        <FreeRide Duration="120" FlatRoad="0"/>
+        <SteadyState Duration="10" Power="0.85" pace="678" Cadence="95"/>
+        <SteadyState Duration="10" Power="1.05" pace="678" Cadence="98"/>
+        <SteadyState Duration="10" Power="1.25" pace="678" Cadence="100"/>
+        <SteadyState Duration="90" Power="1.4" pace="678" Cadence="100"/>
+        <FreeRide Duration="120" FlatRoad="0"/>
+        <SteadyState Duration="10" Power="0.85" pace="678" Cadence="95"/>
+        <SteadyState Duration="10" Power="1.05" pace="678" Cadence="98"/>
+        <SteadyState Duration="10" Power="1.25" pace="678" Cadence="100"/>
+        <SteadyState Duration="90" Power="1.4" pace="678" Cadence="100"/>
+        <FreeRide Duration="120" FlatRoad="0"/>
+        <SteadyState Duration="10" Power="0.85" pace="678" Cadence="95"/>
+        <SteadyState Duration="10" Power="1.05" pace="678" Cadence="98"/>
+        <SteadyState Duration="10" Power="1.25" pace="678" Cadence="100"/>
+        <SteadyState Duration="90" Power="1.4" pace="678" Cadence="100"/>
+        <FreeRide Duration="120" FlatRoad="0"/>
+        <SteadyState Duration="10" Power="0.85" pace="678" Cadence="95"/>
+        <SteadyState Duration="10" Power="1.05" pace="678" Cadence="98"/>
+        <SteadyState Duration="10" Power="1.25" pace="678" Cadence="100"/>
+        <SteadyState Duration="90" Power="1.4" pace="678" Cadence="100"/>
+        <FreeRide Duration="120" FlatRoad="0"/>
+        <SteadyState Duration="300" Power="0.55873984" pace="678"/>
+        <SteadyState Duration="2220" Power="0.65223575" pace="678"/>
+    </workout>
+</workout_file>
+                                                    

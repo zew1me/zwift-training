@@ -1,0 +1,26 @@
+<workout_file>
+    <author>N.Stuke</author>
+    <name>90' 2x[4x2' SEPI 3'R] 8'RBS</name>
+    <description></description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="INTERVALS"/>
+        <tag name="SEPI"/>
+    </tags>
+    <workout>
+        <SteadyState Duration="5400" Power="0.60"/>
+        <Warmup Duration="600" PowerLow="0.53533334" PowerHigh="0.77088886" pace="1428186484"/>
+        <SteadyState Duration="120.0000" Power="0.60230768" pace="1428186484"/>
+        <FreeRide Duration="60.00000" FlatRoad="1" Cadence="114"/>
+        <SteadyState Duration="60.00000" Power="0.48948717" pace="1428186484"/>
+        <FreeRide Duration="60.00000" FlatRoad="1" Cadence="114"/>
+        <SteadyState Duration="60.00000" Power="0.49117833" pace="1428186484"/>
+        <SteadyState Duration="60.00000" Power="1.1184343" pace="1428186484" Cadence="102"/>
+        <SteadyState Duration="300" Power="0.59407896" pace="1428186484"/>
+        <IntervalsT Repeat="4" OnDuration="120" OffDuration="180" OnPower="1.3" OffPower="0.5502193" pace="1428186484"/>
+        <SteadyState Duration="480" Power="0.6108889" pace="1428186484"/>
+        <IntervalsT Repeat="4" OnDuration="120" OffDuration="180" OnPower="1.3" OffPower="0.5502193" pace="1428186484"/>
+        <Ramp Duration="600" PowerLow="0.59407896" PowerHigh="0.75635964" pace="1428186484"/>
+        <Cooldown Duration="600" PowerLow="0.74866664" PowerHigh="0.53533334" pace="1428186484"/>
+    </workout>
+</workout_file>

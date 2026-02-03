@@ -1,0 +1,16 @@
+<workout_file>
+    <author>Marco Pinotti</author>
+    <name>Day 3</name>
+    <description>Foundation
+Avg 110W @ 180W FTP </description>
+    <sportType>bike</sportType>
+    <tags/>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.44694442" PowerHigh="0.58583331" pace="463" Cadence="85"/>
+        <SteadyState Duration="300" Power="0.58583331" pace="463"/>
+        <IntervalsT Repeat="6" OnDuration="360" OffDuration="120" OnPower="0.69138885" OffPower="0.5025" pace="463"/>
+        <SteadyState Duration="420" Power="0.6136111" pace="463"/>
+        <Cooldown Duration="420" PowerLow="0.6469444" PowerHigh="0.5025" pace="463"/>
+    </workout>
+</workout_file>
+               

@@ -1,0 +1,32 @@
+<workout_file>
+    <author>N.Stuke</author>
+    <name>3x12' OU (1O 1U)</name>
+    <description></description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="RECOVERY"/>
+        <tag name="INTERVALS"/>
+        <tag name="OU"/>
+    </tags>
+    <workout>
+        <Warmup Duration="300" PowerLow="0.50487179" PowerHigh="0.77153844" pace="0"/>
+        <SteadyState Duration="60.000004" Power="0.602" pace="0"/>
+        <FreeRide Duration="60.000004" FlatRoad="1" Cadence="114"/>
+        <SteadyState Duration="60.000004" Power="0.48948717" pace="0"/>
+        <FreeRide Duration="60.000004" FlatRoad="1" Cadence="114"/>
+        <SteadyState Duration="60.000004" Power="0.49117833" pace="0"/>
+        <SteadyState Duration="60.000004" Power="1.1190377" pace="0" Cadence="102"/>
+        <SteadyState Duration="600" Power="0.64794236" pace="0" Cadence="92"/>
+        <IntervalsT Repeat="6" OnDuration="60" OffDuration="60" OnPower="1.0512346" OffPower="0.96069956" pace="0" OverUnder="1" Cadence="93" CadenceResting="93"/>
+        <FreeRide Duration="120" FlatRoad="0"/>
+        <SteadyState Duration="240" Power="0.54000002" pace="0"/>
+        <IntervalsT Repeat="6" OnDuration="60" OffDuration="60" OnPower="1.05" OffPower="0.95999998" pace="0" OverUnder="1" Cadence="93" CadenceResting="93"/>
+        <FreeRide Duration="120" FlatRoad="0"/>
+        <SteadyState Duration="240" Power="0.54000002" pace="0"/>
+        <IntervalsT Repeat="6" OnDuration="60" OffDuration="60" OnPower="1.05" OffPower="0.95999998" pace="0" OverUnder="1" Cadence="93" CadenceResting="93"/>
+        <FreeRide Duration="120" FlatRoad="0"/>
+        <SteadyState Duration="240" Power="0.56999999" pace="0"/>
+        <SteadyState Duration="2700" Power="0.64794236" pace="0"/>
+    </workout>
+</workout_file>
+                               
