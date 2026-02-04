@@ -24,13 +24,21 @@ See `AGENTS.md` for repo rules and operational guidance.
 
 ## Setup
 
-Run the symlink initializer (creates/updates the Zwift Custom Workouts link):
+Run the symlink initializer (backs up your Zwift user folder, imports `.zwo`
+files into `workouts/`, and replaces the user id folder with a symlink to the
+repo workouts directory by default):
 
 ```sh
-scripts/init-repo.sh --import
+scripts/init-repo.sh
 ```
 
 Restart Zwift after changes; it only scans workouts on launch.
+
+If you prefer the legacy `custom/` subfolder link, use:
+
+```sh
+scripts/init-repo.sh --link-custom
+```
 
 ## Skill usage
 
