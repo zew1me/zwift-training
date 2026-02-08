@@ -1,0 +1,36 @@
+name: "60min_Z2_4x2_110-120pct"
+author: "creating-zwift-workout"
+description: "Standard warmup, then extra Z2, then 4x2' @ 110–120% FTP w/ 3' easy, finish with 10' Z2 + 5' cooldown. (~60min)"
+sport: "bike"
+tags: ["CUSTOM"]
+blocks:
+  - type: standard_warmup
+
+  # Bring total warm-up time to ~20 minutes.
+  - type: steady
+    minutes: 11
+    power: z2
+
+  - type: textevent
+    time_offset: 1500
+    message: "Main set: 4x2' @ 110–120% FTP, 3' easy between. Consider disabling ERG so power can breathe."
+
+  - type: intervals
+    repeat: 4
+    on_minutes: 2
+    on_power: [1.10, 1.20]
+    off_minutes: 3
+    off_power: 0.40
+
+  - type: textevent
+    time_offset: 2700
+    message: "Finish: easy Z2. Keep it smooth."
+
+  - type: steady
+    minutes: 10
+    power: z2
+
+  - type: cooldown
+    minutes: 5
+    power_low: 0.60
+    power_high: 0.50

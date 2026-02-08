@@ -14,6 +14,8 @@ script to produce `.zwo` XML and validate it.
 2) Compile the YAML into `.zwo`.
 3) Validate the `.zwo` against the subtree reference.
 
+Note: Run the compiler/validator via `uv run --script` (not `python ...`) so dependencies and shebangs resolve consistently.
+
 ```sh
 uv run --script skills/creating-zwift-workout/scripts/compile_workout.py \
   --plan skills/creating-zwift-workout/references/example-workout.yaml \
@@ -28,6 +30,11 @@ uv run --script skills/creating-zwift-workout/scripts/validate_zwo.py --path wor
 ## YAML plan schema
 
 Top-level keys:
+
+Naming convention:
+- Prefer a short, scan-friendly `name` that *leads with the main intervals*, then recovery, then intensity, then total time.
+- Keep it ASCII and filename-safe (use `_` and `-`), since it becomes the `.zwo` filename via slugify.
+- Example: `4x2_3rest_110-120pct_60min`
 
 ```yaml
 name: "60min Z2 + 3x2 @ 105-110%"
