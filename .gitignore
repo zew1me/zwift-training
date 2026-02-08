@@ -3,5 +3,4 @@
 *.pyc
 
 # Local Zwift mirror / generated inventory
-workouts/custom/
 workouts/workouts.files
